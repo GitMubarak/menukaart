@@ -1,0 +1,185 @@
+h2.menukaart-page-title {
+    color: #5E24DD;
+    padding: 10px 20px;
+    font-size: 22px;
+}
+
+table.menukaart-manage-views-table tr th,
+table.menukaart-manage-views-table tr td {
+    border: 0px solid #000;
+    padding: 12px 10px;
+    text-align: left;
+}
+
+table.menukaart-manage-views-table tr th label {
+    font-weight: 600;
+    text-align: left;
+}
+
+
+/* Alert Bar Started */
+
+.menukaart-alert {
+    padding: 20px !important;
+    color: white;
+}
+
+.menukaart-alert.success {
+    background-color: #6ABD6E;
+}
+
+.menukaart-alert.error {
+    background-color: #F66358;
+}
+
+.menukaart-alert.warning {
+    background-color: #FFAA2B;
+}
+
+.menukaart-alert.info {
+    background-color: #47A8F5;
+}
+
+.menukaart-closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menukaart-closebtn:hover {
+    color: black;
+}
+
+
+/* Alert Bar Ended */
+
+
+/* Nav Tab */
+
+.nav-tab-wrapper {
+    border-bottom: 0px solid #5E24DD;
+}
+
+.nav-tab {
+    border: 0px;
+    border-top: 2px solid #5E24DD;
+    border: 1px solid #e5e5e5;
+    background-color: #FFF;
+    color: #5E24DD;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-bottom: 0;
+    margin-left: 0;
+}
+
+.nav-tab:hover {
+    background-color: #5E24DD;
+    color: #FFF;
+    border-bottom: 0px;
+}
+
+.nav-tab-active {
+    background-color: #5E24DD;
+    color: #FFF;
+}
+
+.button.menukaart-button {
+    background-color: #5E24DD;
+    color: #FFF;
+    border-top: 2px solid #5E24DD;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button.menukaart-button:hover {
+    border-top: 2px solid #5E24DD;
+    background-color: #FFF;
+    color: #5E24DD;
+}
+
+
+/* Common Admin Styles Started */
+
+.menukaart_personal_wrap.menukaart_personal_help {
+    background: #fff;
+    margin: 0 20px 20px 0;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+}
+
+.menukaart_personal_wrap h1 {
+    font-size: 30px !important;
+    text-align: center;
+    border: none;
+    padding: 15px 10px !important;
+    background: #6029F6;
+    color: #fff;
+    margin: 15px !important;
+    line-height: 1;
+    /*margin: 12px 12px 20px 0 !important;*/
+    border-radius: 3px;
+}
+
+.menukaart_personal_wrap .help-link {
+    padding: 16px;
+}
+
+.menukaart-hlp-btn {
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 12px 16px;
+}
+
+.menukaart-hlp-btn:hover {
+    color: #f1f1f1;
+}
+
+.menukaart-btn-1 {
+    background-color: #49B158;
+}
+
+.menukaart-btn-2 {
+    background-color: #A62F66;
+}
+
+.menukaart-btn-3 {
+    background-color: #F25757;
+}
+
+.menukaart_personal_wrap .hire-ad {
+    padding: 10px 20px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #ffffe0;
+    border: 1px solid #E6DB55;
+    margin: 30px auto;
+    width: 60%;
+}
+
+.menukaart-admin-sidebar .postbox {
+    text-align: center;
+}
+
+.menukaart-admin-sidebar .postbox h3.hndle {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    border-bottom: 1px solid #ccd0d4;
+}
+
+
+/* Common Admin Styles Ended */

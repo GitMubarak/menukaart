@@ -1,0 +1,114 @@
+.menukaart-content-wrapper {
+    border: 1px solid #DDD;
+    width: 100%;
+    min-height: 50px;
+    padding: 0 20px 40px 20px;
+    margin: 50px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.menukaart-master-title {
+    border: 1px solid #DDD;
+    padding: 0px 20px;
+    width: min-content;
+    background-color: #DAABB5;
+    color: #FFF;
+    text-shadow: #111;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    position: relative;
+    margin: 0 auto;
+    top: -30px;
+}
+
+.menukaart-meal h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    border-top: 3px solid #DAABB5;
+    border-bottom: 3px solid #DAABB5;
+    width: min-content;
+    margin: 20px auto 50px auto;
+    padding: 0px 0;
+    color: #DAABB5;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menukaart-course h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    border: 2px solid #DAABB5;
+    width: 100%;
+    margin: 30px 0 20px 0;
+    color: #DAABB5;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menukaart-menu-item-container {
+    border: 0px solid #000;
+    width: 100%;
+    min-height: 50px;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-gap: 40px;
+    row-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.menukaart-menu-item-wrapper,
+.menukaart-menu-item {
+    border: 0px solid #009900;
+    clear: both;
+}
+
+.menukaart-menu-name {
+    font-family: 'Oswald', sans-serif;
+    border: 0px solid RED;
+    width: 80%;
+    float: left;
+    color: #DAABB5;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.menukaart-menu-price {
+    font-family: 'Oswald', sans-serif;
+    border: 0px solid yellow;
+    width: 18%;
+    float: right;
+    text-align: right;
+    color: #242424;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.menukaart-menu-desc {
+    width: 80%;
+    border: 0px solid #000;
+}
+
+.menukaart-menu-desc p {
+    margin-bottom: 0;
+}
+
+.menukaart-bottom-border {
+    height: 3px;
+    width: 150px;
+    margin: 40px auto 2px auto;
+    background-color: #DAABB5;
+    border-radius: 4px;
+}
+
+
+/*== Responsive ==*/
+
+@media only screen and (max-width: 767px) {
+    .menukaart-menu-item-container {
+        display: block;
+    }
+}
