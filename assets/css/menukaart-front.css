@@ -57,6 +57,7 @@
     grid-gap: 40px;
     row-gap: 10px;
     grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
 }
 
 .menukaart-menu-item-wrapper,

@@ -16,7 +16,7 @@ class Menukaart_Admin
 	function __construct( $version ) {
 
 		$this->menukaart_version = $version;
-		$this->menukaart_assets_prefix = substr( MENUKAART_PRFX, 0, -1 ) . '-';
+		$this->menukaart_assets_prefix = 'menukaart-';
 	}
 
 	/**
