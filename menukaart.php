@@ -1,17 +1,54 @@
 <?php
 /**
- * Plugin Name: 	Menukaart
- * Plugin URI:		http://wordpress.org/plugins/menukaart/
- * Description: 	Best restaurant menu plugin that displays menu items in your webpage by using the shortcode: [menukaart]
- * Version: 		1.0
- * Author:		    HM Plugin
- * Author URI:	    https://hmplugin.com
- * License:         GPL-2.0+
- * License URI:     http://www.gnu.org/licenses/gpl-2.0.txt
+ * Plugin Name: 	    Menukaart
+ * Plugin URI:		    http://wordpress.org/plugins/menukaart/
+ * Description: 	    Best restaurant menu plugin that displays menu items in your webpage by using the shortcode: [menukaart]
+ * Version: 		    1.2
+ * Author:		        HM Plugin
+ * Author URI:	        https://hmplugin.com
+ * Requires at least:   5.2
+ * Requires PHP:        7.2
+ * Tested up to:        5.9.3
+ * Text Domain:         menukaart
+ * Domain Path:         /languages/
+ * License:             GPL-2.0+
+ * License URI:         http://www.gnu.org/licenses/gpl-2.0.txt
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
+}
+
+if ( ! function_exists( 'men_fs' ) ) {
+    // Create a helper function for easy SDK access.
+    function men_fs() {
+        global $men_fs;
+
+        if ( ! isset( $men_fs ) ) {
+            // Include Freemius SDK.
+            require_once dirname(__FILE__) . '/freemius/start.php';
+
+            $men_fs = fs_dynamic_init( array(
+                'id'                  => '10227',
+                'slug'                => 'menukaart',
+                'type'                => 'plugin',
+                'public_key'          => 'pk_7bcfa68372216700582a0bedb5e6d',
+                'is_premium'          => false,
+                'has_addons'          => false,
+                'has_paid_plans'      => false,
+                'menu'                => array(
+                    'slug'           => 'menukaart-manage-views',
+                ),
+            ) );
+        }
+
+        return $men_fs;
+    }
+
+    // Init Freemius.
+    men_fs();
+    // Signal that SDK was initiated.
+    do_action( 'men_fs_loaded' );
 }
 
 define('MENUKAART_PATH', plugin_dir_path(__FILE__));
@@ -20,7 +57,7 @@ define('MENUKAART_SLUG', plugin_basename(__FILE__));
 define('MENUKAART_PRFX', 'Menukaart_');
 define('MENUKAART_CLS_PRFX', 'cls-menukaart-');
 define('MENUKAART_TXT_DOMAIN', 'menukaart');
-define('MENUKAART_VERSION', '1.0');
+define('MENUKAART_VERSION', '1.2');
 
 //require_once MENUKAART_PATH . '/lib/freemius-integrator.php';
 //  - Restaurant Menu Plugin for WordPress

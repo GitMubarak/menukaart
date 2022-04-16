@@ -1,10 +1,10 @@
-=== Menukaart ===
+=== Menukaart - Restaurant Menu Plugin for WordPress ===
 Contributors: hmplugin, mhmrajib
 Donate link: https://www.paypal.me/mhmrajib
-Tags: menu, restaurant, restaurant menu, menu cart
-Requires at least: 5.0
-Tested up to: 5.8.1
-Stable tag: 1.0
+Tags: menu, restaurant, restaurant menu, menu cart, best restaurant menu plugin, free restaurant menu plugin, 
+Requires at least: 5.2
+Tested up to: 5.9.3
+Stable tag: 1.2
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,11 @@ Best restaurant menu plugin that displays menu items in your webpage by using th
 
 == Description ==
 
-Best restaurant menu plugin that displays menu items in your webpage by using the shortcode: [menukaart]
+[__Live Demo__](https://demo.hmplugin.com/menukaart/) | [__Live Chat__](https://hmplugin.com) | [__Support__](https://hmplugin.com/contact/)
+
+= Overview =
+
+**Menukaart** is the **Best Restaurant Menu Plugin for WordPress** that displays menu items in your webpage by using the shortcode: [menukaart]
 
 
 **🌟 Plugin Features:**
@@ -37,6 +41,9 @@ Best restaurant menu plugin that displays menu items in your webpage by using th
 <strong> Use the below Shortcode to display Menucart </strong>
 
 <pre> [menukaart] </pre>
+
+
+**Note: You must assing a menu to a child course. Otherwise it will not show.**
 
 
 **📋 Feedback/Rating:**
@@ -86,9 +93,23 @@ Install Menukaart as a regular WordPress plugin. Here are different ways to inst
 
 == Frequently Asked Questions ==
 
-= I have installed the plugin. What next? =
+= How Can I Display Menus? =
+After activating the plugin, you will see “Menukaart” in WordPress Admin Dashboard.
 
-Please go to Admin -> Menukaart menu and Add your Menus. Copy the Shorcode [menukaart] and use it in any page.
+First - Go to Courses and Add a Parent Course Like "Dinner"
+
+Second - Create a child course under "Dinner" Like "Starter"
+
+Third - Go to “Add Menu Item” and add your Menus as many as you want and assign the menu a child course like "Starter".
+Note*: You must assing a menu to a child course. Otherwise it will not show.
+
+Now create a page and insert the shortode [menukaart] through TinyMCE editor and update.
+
+= Is The Plugin Fully Responsive? =
+Yes, this plugin is fully responsive.
+
+= Do I Need Coding Skills to Showcase Menus? =
+Not at all! This plugin is very easy to use. With just a few clicks, you can amazingly showcase your Restaurant Menus using the Shortcode [menukaart].
 
 
 == Screenshots ==
@@ -97,6 +118,13 @@ Please go to Admin -> Menukaart menu and Add your Menus. Copy the Shorcode [menu
 
 
 == Changelog ==
+
+= 1.2 =
+* Freemius integrated
+
+= 1.1 =
+* CSS improved
+* Issue fixed
 
 = 1.0 =
 * Initial release
