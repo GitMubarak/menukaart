@@ -2,7 +2,7 @@
 /**
  * Plugin Name: 	    Menukaart
  * Plugin URI:		    http://wordpress.org/plugins/menukaart/
- * Description: 	    Best restaurant menu plugin that displays menu items in your webpage by using the shortcode: [menukaart]
+ * Description: 	    Best food menu plugin that displays menu items in your webpage by using the shortcode: [menukaart]
  * Version: 		    1.2
  * Author:		        HM Plugin
  * Author URI:	        https://hmplugin.com
@@ -37,7 +37,7 @@ if ( ! function_exists( 'men_fs' ) ) {
                 'has_addons'          => false,
                 'has_paid_plans'      => false,
                 'menu'                => array(
-                    'slug'           => 'menukaart-manage-views',
+                    'slug'           => 'edit.php?post_type=menukaart',
                 ),
             ) );
         }

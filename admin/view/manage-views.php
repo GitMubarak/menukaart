@@ -24,6 +24,9 @@ if ( ! defined( 'ABSPATH' ) ) {
             <a href="?post_type=menukaart&page=menukaart-manage-views&tab=theme" class="nav-tab <?php if ( 'theme' === $menukaartTab ) { ?>nav-tab-active<?php } ?>">
                 <i class="fa fa-magic" aria-hidden="true"></i>&nbsp;<?php _e('Theme Settings', MENUKAART_TXT_DOMAIN); ?>
             </a>
+            <a href="?post_type=menukaart&page=menukaart-manage-views&tab=styles" class="nav-tab <?php if ( 'styles' === $menukaartTab ) { ?>nav-tab-active<?php } ?>">
+                <i class="fa fa-paint-brush" aria-hidden="true"></i>&nbsp;<?php _e('Style Settings', MENUKAART_TXT_DOMAIN); ?>
+            </a>
         </nav>
 
         <div class="menukaart_personal_wrap menukaart_personal_help" style="width: 75%; float: left;">
@@ -33,6 +36,9 @@ if ( ! defined( 'ABSPATH' ) ) {
                 switch ( $menukaartTab ) {
                     case 'theme':
                         _e('Coming Soon', MENUKAART_TXT_DOMAIN);
+                        break;
+                    case 'styles':
+                        include MENUKAART_PATH . 'admin/view/partial/styles-settings.php';
                         break;
                     default:
                         include MENUKAART_PATH . 'admin/view/partial/general-settings.php';

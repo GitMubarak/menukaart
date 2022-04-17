@@ -265,11 +265,11 @@ class Menukaart_Admin
 
 		$menukaartGeneralSettings = $this->menukaart_get_general_settings();
 
-		require_once MENUKAART_PATH . 'admin/view/' . $this->menukaart_assets_prefix . 'manage-views.php';
+		require_once MENUKAART_PATH . 'admin/view/manage-views.php';
 	}
 
 	function menukaart_get_help() {
-        require_once MENUKAART_PATH . 'admin/view/' . $this->menukaart_assets_prefix . 'help-usage.php';
+        require_once MENUKAART_PATH . 'admin/view/help-usage.php';
     }
 
 	function menukaart_display_notification( $type, $msg ) { 
