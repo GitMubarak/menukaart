@@ -43,6 +43,8 @@ Best food menu plugin that displays food items in your webpage by using the shor
 * Food item font size option
 * Food item price font color option
 * Food item price font size option
+* Food course font color option
+* Food course background color option
 
 
 ➡️ Useage of Shortcode:⬅️
@@ -137,6 +139,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 * Menu title font size option added
 * Food item font color and size option added
 * Food item price font color and size option added
+* Food course font color and bg color option added
 
 = 1.1 =
 * CSS improved

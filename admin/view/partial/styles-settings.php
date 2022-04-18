@@ -63,6 +63,30 @@ foreach ( $menukaartStylesSettings as $option_name => $option_value ) {
                 <code><?php _e('px', MENUKAART_TXT_DOMAIN); ?></code>
             </td>
         </tr>
+        <!-- Food Course -->
+        <tr>
+            <th scope="row" colspan="2">
+                <hr><span><?php _e('Food Course', MENUKAART_TXT_DOMAIN); ?></span><hr>
+            </th>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label><?php _e('Background Color', MENUKAART_TXT_DOMAIN); ?>:</label>
+            </th>
+            <td>
+                <input class="mc-wp-color" type="text" name="mc_food_course_bg_color" id="mc_food_course_bg_color" value="<?php esc_attr_e( $mc_food_course_bg_color ); ?>">
+                <div id="colorpicker"></div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label><?php _e('Font Color', MENUKAART_TXT_DOMAIN); ?>:</label>
+            </th>
+            <td>
+                <input class="mc-wp-color" type="text" name="mc_food_course_font_color" id="mc_food_course_font_color" value="<?php esc_attr_e( $mc_food_course_font_color ); ?>">
+                <div id="colorpicker"></div>
+            </td>
+        </tr>
         <!-- Food Item -->
         <tr>
             <th scope="row" colspan="2">

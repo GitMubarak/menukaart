@@ -10,6 +10,10 @@ if ( ! defined( 'ABSPATH' ) ) {
     color: <?php esc_html_e( $mc_menu_title_font_color ); ?>;
     font-size: <?php esc_html_e( $mc_menu_title_font_size ); ?>px;
 }
+.menukaart-course h4 {
+    background-color: <?php esc_html_e( $mc_food_course_bg_color ); ?>;
+    color: <?php esc_html_e( $mc_food_course_font_color ); ?>;
+}
 .menukaart-menu-name {
     color: <?php esc_html_e( $mc_food_font_color ); ?>;
     font-size: <?php esc_html_e( $mc_food_font_size ); ?>px;

@@ -58,6 +58,16 @@ trait Menukaart_Styles_Settings
                 'default'   => 30,
             ],
             [
+                'name'      => 'mc_food_course_bg_color',
+                'type'      => 'text',
+                'default'   => '#FFFFFF',
+            ],
+            [
+                'name'      => 'mc_food_course_font_color',
+                'type'      => 'text',
+                'default'   => '#DAABB5',
+            ],
+            [
                 'name'      => 'mc_food_font_color',
                 'type'      => 'text',
                 'default'   => '#DAABB5',
