@@ -5,6 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 include_once MENUKAART_PATH . 'core/common.php';
 include_once MENUKAART_PATH . 'core/general-settings.php';
+include_once MENUKAART_PATH . 'core/styles-settings.php';
 
 class Menukaart_Master 
 {

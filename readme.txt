@@ -121,6 +121,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 
 = 1.2 =
 * Freemius integrated
+* Menu title background color, font color option added
 
 = 1.1 =
 * CSS improved

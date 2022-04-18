@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 */
 class Menukaart_Front 
 {
-	use Menukaart_Common, Menukaart_General_Settings;
+	use Menukaart_Common, Menukaart_General_Settings, Menukaart_Styles_Settings;
 
 	private $menukaart_version;
 
@@ -48,7 +48,7 @@ class Menukaart_Front
 		
 		$output = '';
 		ob_start();
-		include MENUKAART_PATH . 'front/view/' . $this->menukaart_assets_prefix . 'front-view.php';
+		include MENUKAART_PATH . 'front/view/menukaart.php';
 		$output .= ob_get_clean();
 		return $output;
 	}

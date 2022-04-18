@@ -3,9 +3,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-//$mcMenuStyles = [];
-foreach ( $mcMenuStyles as $option_name => $option_value ) {
-    if ( isset( $mcMenuStyles[$option_name] ) ) {
+//$menukaartStylesSettings = [];
+foreach ( $menukaartStylesSettings as $option_name => $option_value ) {
+    if ( isset( $menukaartStylesSettings[$option_name] ) ) {
         ${"" . $option_name} = $option_value;
     }
 }
@@ -15,8 +15,17 @@ foreach ( $mcMenuStyles as $option_name => $option_value ) {
         <!-- Title -->
         <tr>
             <th scope="row" colspan="2">
-                <hr><span><?php _e('Job Title', MENUKAART_TXT_DOMAIN); ?></span><hr>
+                <hr><span><?php _e('Menu Title', MENUKAART_TXT_DOMAIN); ?></span><hr>
             </th>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label><?php _e('Background Color', MENUKAART_TXT_DOMAIN); ?>:</label>
+            </th>
+            <td>
+                <input class="mc-wp-color" type="text" name="mc_menu_title_bg_color" id="mc_menu_title_bg_color" value="<?php esc_attr_e( $mc_menu_title_bg_color ); ?>">
+                <div id="colorpicker"></div>
+            </td>
         </tr>
         <tr>
             <th scope="row">
@@ -29,5 +38,9 @@ foreach ( $mcMenuStyles as $option_name => $option_value ) {
         </tr>
     </table>
     <hr>
-    <p class="submit"><button id="updatemenuStyles" name="updatemenuStyles" class="button button-primary menukaart-button"><?php _e('Save Settings', MENUKAART_TXT_DOMAIN); ?></button></p>
+    <p class="submit">
+        <button id="updatemenuStyles" name="updatemenuStyles" class="button button-primary menukaart-button">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;<?php _e('Save Settings', MENUKAART_TXT_DOMAIN); ?>
+        </button>
+    </p>
 </form>

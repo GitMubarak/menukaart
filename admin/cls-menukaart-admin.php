@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 */
 class Menukaart_Admin 
 {
-	use Menukaart_Common, Menukaart_General_Settings;
+	use Menukaart_Common, Menukaart_General_Settings, Menukaart_Styles_Settings;
 
 	private $menukaart_version;
 	private $menukaart_assets_prefix;
@@ -264,6 +264,13 @@ class Menukaart_Admin
 		}
 
 		$menukaartGeneralSettings = $this->menukaart_get_general_settings();
+
+		if ( isset( $_POST['updatemenuStyles'] ) ) {
+
+			$menukaartMessage = $this->menukaart_set_styles_settings( $_POST );
+		}
+
+		$menukaartStylesSettings = $this->menukaart_get_styles_settings();
 
 		require_once MENUKAART_PATH . 'admin/view/manage-views.php';
 	}

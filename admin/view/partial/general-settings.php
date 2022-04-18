@@ -40,5 +40,10 @@ foreach ( $menukaartGeneralSettings as $option_name => $option_value ) {
         </td>
     </tr>
     </table>
-    <p class="submit"><button id="button-general-settings" name="btnGeneralSettings" class="button button-primary menukaart-button"><?php _e('Save Settings', MENUKAART_TXT_DOMAIN); ?></button></p>
+    <hr>
+    <p class="submit">
+        <button id="button-general-settings" name="btnGeneralSettings" class="button button-primary menukaart-button">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;<?php _e('Save Settings', MENUKAART_TXT_DOMAIN); ?>
+        </button>
+    </p>
 </form>
