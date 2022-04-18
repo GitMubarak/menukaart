@@ -15,4 +15,9 @@ if ( ! defined( 'ABSPATH' ) ) {
     font-size: <?php esc_html_e( $mc_food_font_size ); ?>px;
     line-height: <?php echo esc_html( $mc_food_font_size ) + 10; ?>px;
 }
+.menukaart-menu-price {
+    color: <?php esc_html_e( $mc_food_price_font_color ); ?>;
+    font-size: <?php esc_html_e( $mc_food_price_font_size ); ?>px;
+    line-height: <?php echo esc_html( $mc_food_price_font_size ) + 10; ?>px;
+}
 </style>

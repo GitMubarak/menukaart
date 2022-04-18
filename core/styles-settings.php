@@ -67,6 +67,16 @@ trait Menukaart_Styles_Settings
                 'type'      => 'number',
                 'default'   => 22,
             ],
+            [
+                'name'      => 'mc_food_price_font_color',
+                'type'      => 'text',
+                'default'   => '#242424',
+            ],
+            [
+                'name'      => 'mc_food_price_font_size',
+                'type'      => 'number',
+                'default'   => 22,
+            ],
         ];
 
     }

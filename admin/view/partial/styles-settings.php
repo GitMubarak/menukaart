@@ -87,6 +87,24 @@ foreach ( $menukaartStylesSettings as $option_name => $option_value ) {
                 <code><?php _e('px', MENUKAART_TXT_DOMAIN); ?></code>
             </td>
         </tr>
+        <tr>
+            <th scope="row">
+                <label><?php _e('Price Font Color', MENUKAART_TXT_DOMAIN); ?>:</label>
+            </th>
+            <td>
+                <input class="mc-wp-color" type="text" name="mc_food_price_font_color" id="mc_food_price_font_color" value="<?php esc_attr_e( $mc_food_price_font_color ); ?>">
+                <div id="colorpicker"></div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label><?php _e('Price Font Size', MENUKAART_TXT_DOMAIN); ?>:</label>
+            </th>
+            <td>
+                <input type="number" min="12" max='54' step="1" name="mc_food_price_font_size" value="<?php esc_attr_e( $mc_food_price_font_size );?>" >
+                <code><?php _e('px', MENUKAART_TXT_DOMAIN); ?></code>
+            </td>
+        </tr>
     </table>
     <hr>
     <p class="submit">
