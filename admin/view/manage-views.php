@@ -21,9 +21,6 @@ if ( ! defined( 'ABSPATH' ) ) {
             <a href="?post_type=menukaart&page=menukaart-manage-views&tab=general" class="nav-tab <?php if ( ( 'general' === $menukaartTab ) || empty( $menukaartTab ) ) { ?>nav-tab-active<?php } ?>">
                 <i class="fa fa-cog" aria-hidden="true"></i>&nbsp;<?php _e('General Settings', MENUKAART_TXT_DOMAIN); ?>
             </a>
-            <a href="?post_type=menukaart&page=menukaart-manage-views&tab=theme" class="nav-tab <?php if ( 'theme' === $menukaartTab ) { ?>nav-tab-active<?php } ?>">
-                <i class="fa fa-magic" aria-hidden="true"></i>&nbsp;<?php _e('Theme Settings', MENUKAART_TXT_DOMAIN); ?>
-            </a>
             <a href="?post_type=menukaart&page=menukaart-manage-views&tab=styles" class="nav-tab <?php if ( 'styles' === $menukaartTab ) { ?>nav-tab-active<?php } ?>">
                 <i class="fa fa-paint-brush" aria-hidden="true"></i>&nbsp;<?php _e('Style Settings', MENUKAART_TXT_DOMAIN); ?>
             </a>

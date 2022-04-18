@@ -63,6 +63,11 @@ trait Menukaart_Styles_Settings
                 'default'   => '#FFFFFF',
             ],
             [
+                'name'      => 'mc_food_course_border_color',
+                'type'      => 'text',
+                'default'   => '#DAABB5',
+            ],
+            [
                 'name'      => 'mc_food_course_font_color',
                 'type'      => 'text',
                 'default'   => '#DAABB5',

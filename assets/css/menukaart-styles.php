@@ -12,6 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 .menukaart-course h4 {
     background-color: <?php esc_html_e( $mc_food_course_bg_color ); ?>;
+    border: 2px solid <?php esc_html_e( $mc_food_course_border_color ); ?>;
     color: <?php esc_html_e( $mc_food_course_font_color ); ?>;
 }
 .menukaart-menu-name {
