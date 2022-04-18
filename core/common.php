@@ -12,7 +12,7 @@ trait Menukaart_Common
 
     protected function menukaart_admin_sidebar() {
 		?>
-		<div class="menukaart-admin-sidebar" style="width: 20%; float: left; margin-top: 5px;">
+		<div class="menukaart-admin-sidebar" style="width: 20%; float: left;">
 			<div class="postbox">
 				<h3 class="hndle"><span>Support / Bug / Customization</span></h3>
 				<div class="inside centered">

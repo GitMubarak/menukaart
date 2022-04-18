@@ -94,8 +94,6 @@ foreach ( $mk_meals as $meal ) {
 						}
 						?>
 					</div>
-
-
 			</div>
 			<?php
 	  	}

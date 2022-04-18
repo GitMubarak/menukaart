@@ -10,4 +10,9 @@ if ( ! defined( 'ABSPATH' ) ) {
     color: <?php esc_html_e( $mc_menu_title_font_color ); ?>;
     font-size: <?php esc_html_e( $mc_menu_title_font_size ); ?>px;
 }
+.menukaart-menu-name {
+    color: <?php esc_html_e( $mc_food_font_color ); ?>;
+    font-size: <?php esc_html_e( $mc_food_font_size ); ?>px;
+    line-height: <?php echo esc_html( $mc_food_font_size ) + 10; ?>px;
+}
 </style>

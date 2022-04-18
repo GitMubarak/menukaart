@@ -64,6 +64,10 @@ table.mc-menu-style-settings-table tr th label {
 
 /* Nav Tab */
 
+.menukaart-wrap {
+    width: 100%;
+}
+
 .nav-tab-wrapper {
     border-bottom: 0px solid #5E24DD;
 }

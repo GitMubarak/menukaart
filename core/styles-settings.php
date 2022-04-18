@@ -57,6 +57,16 @@ trait Menukaart_Styles_Settings
                 'type'      => 'number',
                 'default'   => 30,
             ],
+            [
+                'name'      => 'mc_food_font_color',
+                'type'      => 'text',
+                'default'   => '#DAABB5',
+            ],
+            [
+                'name'      => 'mc_food_font_size',
+                'type'      => 'number',
+                'default'   => 22,
+            ],
         ];
 
     }

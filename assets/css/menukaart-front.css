@@ -70,13 +70,14 @@
 
 .menukaart-menu-name {
     font-family: 'Oswald', sans-serif;
-    border: 0px solid RED;
     width: 80%;
     float: left;
     color: #DAABB5;
     font-weight: 400;
     font-size: 22px;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
 }
 
 .menukaart-menu-price {
