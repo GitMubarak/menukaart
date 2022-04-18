@@ -37,6 +37,7 @@ Best food menu plugin that displays food items in your webpage by using the shor
 * Menu title background color option
 * Menu title border color option
 * Menu title font color option
+* Menu title border width option
 
 
 ➡️ Useage of Shortcode:⬅️
@@ -127,6 +128,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 * Freemius integrated
 * Menu title background color, font color option added
 * Menu title border color option added
+* Menu title border width option added
 
 = 1.1 =
 * CSS improved

@@ -43,6 +43,11 @@ trait Menukaart_Styles_Settings
                 'default'   => '#DAABB5',
             ],
             [
+                'name'      => 'mc_menu_title_border_width',
+                'type'      => 'number',
+                'default'   => 1,
+            ],
+            [
                 'name'      => 'mc_menu_title_font_color',
                 'type'      => 'text',
                 'default'   => '#FFFFFF',

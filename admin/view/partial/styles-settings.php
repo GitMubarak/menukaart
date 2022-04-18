@@ -38,6 +38,15 @@ foreach ( $menukaartStylesSettings as $option_name => $option_value ) {
         </tr>
         <tr>
             <th scope="row">
+                <label><?php _e('Border Width', MENUKAART_TXT_DOMAIN); ?>:</label>
+            </th>
+            <td>
+                <input type="number" min="0" max='10' step="1" name="mc_menu_title_border_width" value="<?php esc_attr_e( $mc_menu_title_border_width );?>" >
+                <code><?php _e('px', MENUKAART_TXT_DOMAIN); ?></code>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
                 <label><?php _e('Font Color', MENUKAART_TXT_DOMAIN); ?>:</label>
             </th>
             <td>
