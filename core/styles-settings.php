@@ -45,7 +45,7 @@ trait Menukaart_Styles_Settings
             [
                 'name'      => 'mc_menu_title_border_width',
                 'type'      => 'number',
-                'default'   => 1,
+                'default'   => 0,
             ],
             [
                 'name'      => 'mc_menu_title_font_color',
@@ -53,9 +53,9 @@ trait Menukaart_Styles_Settings
                 'default'   => '#FFFFFF',
             ],
             [
-                'name'      => 'mk_order_with',
-                'type'      => 'string',
-                'default'   => 'ASC',
+                'name'      => 'mc_menu_title_font_size',
+                'type'      => 'number',
+                'default'   => 30,
             ],
         ];
 

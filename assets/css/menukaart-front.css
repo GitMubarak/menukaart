@@ -19,6 +19,8 @@
     font-size: 30px;
     position: relative;
     margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
     top: -30px;
 }
 

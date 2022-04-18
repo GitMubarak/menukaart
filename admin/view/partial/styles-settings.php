@@ -54,6 +54,15 @@ foreach ( $menukaartStylesSettings as $option_name => $option_value ) {
                 <div id="colorpicker"></div>
             </td>
         </tr>
+        <tr>
+            <th scope="row">
+                <label><?php _e('Font Size', MENUKAART_TXT_DOMAIN); ?>:</label>
+            </th>
+            <td>
+                <input type="number" min="12" max='60' step="1" name="mc_menu_title_font_size" value="<?php esc_attr_e( $mc_menu_title_font_size );?>" >
+                <code><?php _e('px', MENUKAART_TXT_DOMAIN); ?></code>
+            </td>
+        </tr>
     </table>
     <hr>
     <p class="submit">

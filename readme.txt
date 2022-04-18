@@ -36,8 +36,9 @@ Best food menu plugin that displays food items in your webpage by using the shor
 * Menu order with ASC/DESC
 * Menu title background color option
 * Menu title border color option
-* Menu title font color option
 * Menu title border width option
+* Menu title font color option
+* Menu title font size option
 
 
 ➡️ Useage of Shortcode:⬅️
@@ -129,6 +130,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 * Menu title background color, font color option added
 * Menu title border color option added
 * Menu title border width option added
+* Menu title font size option added
 
 = 1.1 =
 * CSS improved
