@@ -29,6 +29,15 @@ foreach ( $menukaartStylesSettings as $option_name => $option_value ) {
         </tr>
         <tr>
             <th scope="row">
+                <label><?php _e('Border Color', MENUKAART_TXT_DOMAIN); ?>:</label>
+            </th>
+            <td>
+                <input class="mc-wp-color" type="text" name="mc_menu_title_border_color" id="mc_menu_title_border_color" value="<?php esc_attr_e( $mc_menu_title_border_color ); ?>">
+                <div id="colorpicker"></div>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
                 <label><?php _e('Font Color', MENUKAART_TXT_DOMAIN); ?>:</label>
             </th>
             <td>

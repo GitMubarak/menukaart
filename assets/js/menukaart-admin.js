@@ -5,6 +5,7 @@
 
     var menukaartColorPicker = [
         '#mc_menu_title_bg_color',
+        '#mc_menu_title_border_color',
         '#mc_menu_title_font_color',
     ];
 
