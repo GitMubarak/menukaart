@@ -25,15 +25,23 @@ foreach ( $menukaartGeneralSettings as $option_name => $option_value ) {
             <th scope="row">
                 <label for="mk_hide_menu_title"><?php _e('Hide Menu Title', MENUKAART_TXT_DOMAIN); ?></label>
             </th>
-            <td colspan="3">
+            <td>
                 <input type="checkbox" name="mk_hide_menu_title" id="mk_hide_menu_title" value="1" <?php echo $mk_hide_menu_title ? 'checked' : ''; ?> >
             </td>
+            <th scope="row">
+                <label><?php _e('Menu Title Text', MENUKAART_TXT_DOMAIN); ?></label>
+            </th>
+            <td>
+                <input type="text" name="mk_menu_title_text" class="medium-text" placeholder="<?php esc_attr_e( $mk_menu_title_text ); ?>"
+                    value="<?php esc_attr_e( $mk_menu_title_text ); ?>">
+            </td>
+        </tr>
         </tr>
         <tr>
             <th scope="row">
                 <label><?php _e('Orber By', MENUKAART_TXT_DOMAIN); ?>:</label>
             </th>
-            <td>
+            <td colspan="3">
                 <select name="mk_order_by" class="small-text">
                     <option value="title" <?php echo ( 'title' === $mk_order_by ) ? 'selected' : ''; ?>><?php _e('Title', MENUKAART_TXT_DOMAIN); ?></option>
                     <option value="date" <?php echo ( 'date' === $mk_order_by ) ? 'selected' : ''; ?>><?php _e('Date', MENUKAART_TXT_DOMAIN); ?></option>
@@ -45,7 +53,7 @@ foreach ( $menukaartGeneralSettings as $option_name => $option_value ) {
             <th scope="row">
                 <label><?php _e('Order With', MENUKAART_TXT_DOMAIN); ?>:</label>
             </th>
-            <td>
+            <td colspan="3">
                 <input type="radio" name="mk_order_with" id="mk_order_with_asc" value="ASC" <?php echo ( 'ASC' === esc_attr( $mk_order_with ) ) ? 'checked' : ''; ?> >
                 <label for="mk_order_with_asc"><span></span><?php _e( 'ASC', MENUKAART_TXT_DOMAIN ); ?></label>
                 &nbsp;&nbsp;

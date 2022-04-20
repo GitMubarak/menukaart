@@ -43,6 +43,11 @@ trait Menukaart_General_Settings
                 'default'   => false,
             ],
             [
+                'name'      => 'mk_menu_title_text',
+                'type'      => 'text',
+                'default'   => 'Menukaart',
+            ],
+            [
                 'name'      => 'mk_order_by',
                 'type'      => 'string',
                 'default'   => 'title',
