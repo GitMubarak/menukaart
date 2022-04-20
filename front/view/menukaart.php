@@ -31,7 +31,7 @@ $mk_meals  = get_terms( array( 'taxonomy' => 'menukaart_courses', 'hide_empty' =
 	if ( ! $mk_hide_menu_title ) {
 		?>
 		<div class="menukaart-master-title">
-			<?php _e('MENUKAART', MENUKAART_TXT_DOMAIN); ?>
+			<?php esc_html_e( $mk_menu_title_text ); ?>
 		</div>
 		<?php
 	}

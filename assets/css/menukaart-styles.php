@@ -6,6 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <style type="text/css">
 .menukaart-content-wrapper {
     font-family: <?php echo stripslashes( esc_html( $mk_global_font_family ) ); ?>;
+    width: <?php echo esc_html( $mk_menu_width ) . esc_html( $mk_menu_width_type ); ?>;
 }
 .menukaart-master-title {
     background-color: <?php esc_html_e( $mc_menu_title_bg_color ); ?>;

@@ -57,6 +57,16 @@ trait Menukaart_General_Settings
                 'type'      => 'string',
                 'default'   => 'ASC',
             ],
+            [
+                'name'      => 'mk_menu_width',
+                'type'      => 'number',
+                'default'   => 100,
+            ],
+            [
+                'name'      => 'mk_menu_width_type',
+                'type'      => 'string',
+                'default'   => '%',
+            ],
         ];
 
     }

@@ -50,6 +50,7 @@ Best food menu plugin that displays food items in your webpage by using the shor
 * Global Font Family option
 * Hide Menu Title Option
 * Menu Title Text option
+* Menu container width option
 
 
 ➡️ Useage of Shortcode:⬅️
@@ -150,6 +151,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 * Global Font Family option added
 * Hide Menu Title Option added
 * Menu Title Text option added
+* Menu container width option added
 
 = 1.1 =
 * CSS improved

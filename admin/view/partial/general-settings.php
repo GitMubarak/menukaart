@@ -61,6 +61,18 @@ foreach ( $menukaartGeneralSettings as $option_name => $option_value ) {
                 <label for="mk_order_with_desc"><span></span><?php _e( 'DESC', MENUKAART_TXT_DOMAIN ); ?></label>
             </td>
         </tr>
+        <tr>
+            <th scope="row">
+                <label><?php _e('Menu Width', MENUKAART_TXT_DOMAIN); ?></label>
+            </th>
+            <td colspan="3">
+                <input type="number" min="1" max="1200" step="1" name="mk_menu_width" value="<?php esc_attr_e( $mk_menu_width ); ?>">
+                <select name="mk_menu_width_type" class="medium-text">
+                    <option value="px" <?php echo ( 'ps' === $mk_menu_width_type ) ? 'selected' : ''; ?> ><?php echo 'px'; ?></option>
+                    <option value="%" <?php echo ( '%' === $mk_menu_width_type ) ? 'selected' : ''; ?> ><?php echo '%'; ?></option>
+                </select>
+            </td>
+        </tr>
     </table>
     <hr>
     <p class="submit">
