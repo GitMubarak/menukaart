@@ -38,6 +38,11 @@ trait Menukaart_General_Settings
                 'default'   => '"Oswald", sans-serif',
             ],
             [
+                'name'      => 'mk_hide_menu_title',
+                'type'      => 'boolean',
+                'default'   => false,
+            ],
+            [
                 'name'      => 'mk_order_by',
                 'type'      => 'string',
                 'default'   => 'title',

@@ -27,9 +27,15 @@ include MENUKAART_PATH . 'assets/css/menukaart-styles.php';
 $mk_meals  = get_terms( array( 'taxonomy' => 'menukaart_courses', 'hide_empty' => true, 'orderby' => 'name', 'order' => 'ASC', 'parent' => 0 ) );
 ?>
 <div class="menukaart-content-wrapper">
-	<div class="menukaart-master-title">
-		<?php _e('MENUKAART', MENUKAART_TXT_DOMAIN); ?>
-	</div>
+	<?php
+	if ( ! $mk_hide_menu_title ) {
+		?>
+		<div class="menukaart-master-title">
+			<?php _e('MENUKAART', MENUKAART_TXT_DOMAIN); ?>
+		</div>
+		<?php
+	}
+	?>
 <?php
 foreach ( $mk_meals as $meal ) { 
 	?>

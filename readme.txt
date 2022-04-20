@@ -48,6 +48,7 @@ Best food menu plugin that displays food items in your webpage by using the shor
 * Food course background color option
 * Food course border color option
 * Global Font Family option
+* Hide Menu Title Option
 
 
 ➡️ Useage of Shortcode:⬅️
@@ -146,6 +147,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 * Food course border color option added
 * Food course font size option added
 * Global Font Family option added
+* Hide Menu Title Option added
 
 = 1.1 =
 * CSS improved

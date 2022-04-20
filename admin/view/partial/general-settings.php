@@ -23,6 +23,14 @@ foreach ( $menukaartGeneralSettings as $option_name => $option_value ) {
         </tr>
         <tr>
             <th scope="row">
+                <label for="mk_hide_menu_title"><?php _e('Hide Menu Title', MENUKAART_TXT_DOMAIN); ?></label>
+            </th>
+            <td colspan="3">
+                <input type="checkbox" name="mk_hide_menu_title" id="mk_hide_menu_title" value="1" <?php echo $mk_hide_menu_title ? 'checked' : ''; ?> >
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
                 <label><?php _e('Orber By', MENUKAART_TXT_DOMAIN); ?>:</label>
             </th>
             <td>
