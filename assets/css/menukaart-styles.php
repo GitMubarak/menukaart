@@ -4,6 +4,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <style type="text/css">
+.menukaart-content-wrapper {
+    font-family: <?php echo stripslashes( esc_html( $mk_global_font_family ) ); ?>;
+}
 .menukaart-master-title {
     background-color: <?php esc_html_e( $mc_menu_title_bg_color ); ?>;
     border: <?php esc_html_e( $mc_menu_title_border_width ); ?>px solid <?php esc_html_e( $mc_menu_title_border_color ); ?>;
@@ -14,6 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     background-color: <?php esc_html_e( $mc_food_course_bg_color ); ?>;
     border: 2px solid <?php esc_html_e( $mc_food_course_border_color ); ?>;
     color: <?php esc_html_e( $mc_food_course_font_color ); ?>;
+    font-size: <?php esc_html_e( $mc_food_course_font_size ); ?>px;
 }
 .menukaart-menu-name {
     color: <?php esc_html_e( $mc_food_font_color ); ?>;

@@ -33,6 +33,11 @@ trait Menukaart_General_Settings
 
         return [
             [
+                'name'      => 'mk_global_font_family',
+                'type'      => 'text',
+                'default'   => '"Oswald", sans-serif',
+            ],
+            [
                 'name'      => 'mk_order_by',
                 'type'      => 'string',
                 'default'   => 'title',

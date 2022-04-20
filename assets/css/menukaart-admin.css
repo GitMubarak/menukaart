@@ -4,8 +4,8 @@ h2.menukaart-page-title {
     font-size: 22px;
 }
 
-table.menukaart-manage-views-table tr th,
-table.menukaart-manage-views-table tr td,
+table.mc-general-settings-table tr th,
+table.mc-general-settings-table tr td,
 table.mc-menu-style-settings-table tr th,
 table.mc-menu-style-settings-table tr td {
     border: 0px solid #000;
@@ -13,7 +13,7 @@ table.mc-menu-style-settings-table tr td {
     text-align: left;
 }
 
-table.menukaart-manage-views-table tr th label,
+table.mc-general-settings-table tr th label,
 table.mc-menu-style-settings-table tr th label {
     font-weight: 600;
     text-align: left;

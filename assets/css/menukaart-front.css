@@ -1,4 +1,5 @@
 .menukaart-content-wrapper {
+    font-family: 'Oswald', sans-serif;
     border: 1px solid #DDD;
     width: 100%;
     min-height: 50px;
@@ -9,23 +10,22 @@
 }
 
 .menukaart-master-title {
+    font-family: inherit;
     border: 1px solid #DAABB5;
     padding: 0px 20px;
     width: min-content;
     background-color: #DAABB5;
     color: #FFF;
     text-shadow: #111;
-    font-family: 'Oswald', sans-serif;
     font-size: 30px;
     position: relative;
     margin: 0 auto;
     height: 60px;
-    line-height: 60px;
     top: -30px;
 }
 
 .menukaart-meal h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: inherit;
     font-size: 48px;
     border-top: 3px solid #DAABB5;
     border-bottom: 3px solid #DAABB5;
@@ -38,7 +38,7 @@
 }
 
 .menukaart-course h4 {
-    font-family: 'Oswald', sans-serif;
+    font-family: inherit;
     font-size: 30px;
     border: 2px solid #DAABB5;
     width: 100%;
@@ -69,7 +69,7 @@
 }
 
 .menukaart-menu-name {
-    font-family: 'Oswald', sans-serif;
+    font-family: inherit;
     width: 80%;
     float: left;
     color: #DAABB5;
@@ -81,7 +81,7 @@
 }
 
 .menukaart-menu-price {
-    font-family: 'Oswald', sans-serif;
+    font-family: inherit;
     border: 0px solid yellow;
     width: 18%;
     float: right;
