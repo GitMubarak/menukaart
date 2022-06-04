@@ -73,6 +73,25 @@ foreach ( $menukaartGeneralSettings as $option_name => $option_value ) {
                 </select>
             </td>
         </tr>
+        <tr>
+            <th scope="row">
+                <label><?php _e('Currency', MENUKAART_TXT_DOMAIN); ?>:</label>
+            </th>
+            <td colspan="3">
+                <select name="mk_currency" class="medium-text" style="max-width: 250px;">
+                    <?php
+                    $wbgCurrency = $this->menukaart_get_all_currency();
+                    foreach ( $wbgCurrency as $currency ) {
+                        ?>
+                        <option value="<?php esc_attr_e( $currency->abbreviation ); ?>" <?php echo ( $mk_currency === $currency->abbreviation ) ? 'selected="selected"' : ''; ?> >
+                            <?php esc_html_e( $currency->currency ); ?>-<?php esc_html_e( $currency->abbreviation ); ?>-<?php esc_html_e( $currency->symbol ); ?>
+                        </option>
+                        <?php 
+                    } 
+                    ?>
+                </select>
+            </td>
+        </tr>
     </table>
     <hr>
     <p class="submit">

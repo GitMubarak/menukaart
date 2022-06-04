@@ -25,6 +25,8 @@ foreach ( $menukaartStylesSettings as $option_name => $option_value ) {
 include MENUKAART_PATH . 'assets/css/menukaart-styles.php';
 
 $mk_meals  = get_terms( array( 'taxonomy' => 'menukaart_courses', 'hide_empty' => true, 'orderby' => 'name', 'order' => 'ASC', 'parent' => 0 ) );
+
+$mk_currency = $this->menukaart_get_currency_symbol( $mk_currency );
 ?>
 <div class="menukaart-content-wrapper">
 	<?php
@@ -89,7 +91,7 @@ foreach ( $mk_meals as $meal ) {
 								?>
 								<div class="menukaart-menu-item">
 									<div class="menukaart-menu-name"><?php echo get_the_title(); ?></div>
-									<div class="menukaart-menu-price"><?php echo number_format( ( esc_html( $mk_price ) / 100 ), 2, ",", "" ); ?></div>
+									<div class="menukaart-menu-price"><?php echo esc_html( $mk_currency ) . '' . number_format( ( esc_html( $mk_price ) / 100 ), 2, ",", "" ); ?></div>
 									<div class="menukaart-menu-desc">
 										<?php the_content(); ?>
 									</div>

@@ -67,6 +67,11 @@ trait Menukaart_General_Settings
                 'type'      => 'string',
                 'default'   => '%',
             ],
+            [
+                'name'      => 'mk_currency',
+                'type'      => 'string',
+                'default'   => 'USD',
+            ],
         ];
 
     }

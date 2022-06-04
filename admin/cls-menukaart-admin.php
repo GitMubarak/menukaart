@@ -65,14 +65,14 @@ class Menukaart_Admin
 
 		wp_enqueue_style(
 			$this->menukaart_assets_prefix . 'font-awesome', 
-			MENUKAART_ASSETS .'css/font-awesome/css/font-awesome.min.css',
+			MENUKAART_ASSETS .'css/fontawesome/css/all.min.css',
 			array(),
 			$this->menukaart_version,
 			FALSE
 		);
 
 		wp_enqueue_style(
-			$this->menukaart_assets_prefix . 'admin-style',
+			$this->menukaart_assets_prefix . 'admin',
 			MENUKAART_ASSETS . 'css/' . $this->menukaart_assets_prefix . 'admin.css',
 			array(),
 			$this->menukaart_version,

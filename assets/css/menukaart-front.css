@@ -70,7 +70,7 @@
 
 .menukaart-menu-name {
     font-family: inherit;
-    width: 80%;
+    width: 70%;
     float: left;
     color: #DAABB5;
     font-weight: 400;
@@ -82,8 +82,7 @@
 
 .menukaart-menu-price {
     font-family: inherit;
-    border: 0px solid yellow;
-    width: 18%;
+    width: 30%;
     float: right;
     text-align: right;
     color: #242424;
