@@ -3,8 +3,8 @@ Contributors: hmplugin, mhmrajib
 Donate link: https://www.paypal.me/mhmrajib
 Tags: café menu, restaurant, restaurant menu, food, Food Menu
 Requires at least: 5.2
-Tested up to: 5.9.3
-Stable tag: 1.2
+Tested up to: 6.0
+Stable tag: 1.3
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -132,10 +132,15 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 
 == Screenshots ==
 
-1. Showing Menukaart
+1. Showing Menukaart as a Food Menu Card
+2. Showing general settings page
+3. Showing styles settings page
 
 
 == Changelog ==
+
+= 1.3 =
+* Freemius integrated
 
 = 1.2 =
 * Freemius integrated
