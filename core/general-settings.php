@@ -72,6 +72,11 @@ trait Menukaart_General_Settings
                 'type'      => 'string',
                 'default'   => 'USD',
             ],
+            [
+                'name'      => 'mk_disable_price_number_format',
+                'type'      => 'boolean',
+                'default'   => false,
+            ],
         ];
 
     }

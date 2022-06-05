@@ -54,6 +54,7 @@ Best food menu plugin that displays food items in your webpage by using the shor
 * 150 currencies available
 * Font Awesome Free 6.1.1 integrated
 * Menu item image
+* Enable Disable Price Number Format
 
 
 ➡️ Useage of Shortcode:⬅️
@@ -146,6 +147,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 * Currency option added
 * Font Awesome Free 6.1.1 integrated
 * Menu item image added
+* Disable Price Number Format option added
 
 = 1.2 =
 * Freemius integrated

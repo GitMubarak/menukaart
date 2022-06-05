@@ -39,21 +39,19 @@ foreach ( $menukaartGeneralSettings as $option_name => $option_value ) {
         </tr>
         <tr>
             <th scope="row">
-                <label><?php _e('Orber By', MENUKAART_TXT_DOMAIN); ?>:</label>
+                <label><?php _e('Orber By', MENUKAART_TXT_DOMAIN); ?></label>
             </th>
-            <td colspan="3">
+            <td>
                 <select name="mk_order_by" class="small-text">
                     <option value="title" <?php echo ( 'title' === $mk_order_by ) ? 'selected' : ''; ?>><?php _e('Title', MENUKAART_TXT_DOMAIN); ?></option>
                     <option value="date" <?php echo ( 'date' === $mk_order_by ) ? 'selected' : ''; ?>><?php _e('Date', MENUKAART_TXT_DOMAIN); ?></option>
                     <option value="menu_order" <?php echo ( 'menu_order' === $mk_order_by ) ? 'selected' : ''; ?>><?php _e('Post Order', MENUKAART_TXT_DOMAIN); ?></option>
                 </select>
             </td>
-        </tr>
-        <tr>
             <th scope="row">
-                <label><?php _e('Order With', MENUKAART_TXT_DOMAIN); ?>:</label>
+                <label><?php _e('Order With', MENUKAART_TXT_DOMAIN); ?></label>
             </th>
-            <td colspan="3">
+            <td>
                 <input type="radio" name="mk_order_with" id="mk_order_with_asc" value="ASC" <?php echo ( 'ASC' === esc_attr( $mk_order_with ) ) ? 'checked' : ''; ?> >
                 <label for="mk_order_with_asc"><span></span><?php _e( 'ASC', MENUKAART_TXT_DOMAIN ); ?></label>
                 &nbsp;&nbsp;
@@ -75,7 +73,7 @@ foreach ( $menukaartGeneralSettings as $option_name => $option_value ) {
         </tr>
         <tr>
             <th scope="row">
-                <label><?php _e('Currency', MENUKAART_TXT_DOMAIN); ?>:</label>
+                <label><?php _e('Currency', MENUKAART_TXT_DOMAIN); ?></label>
             </th>
             <td colspan="3">
                 <select name="mk_currency" class="medium-text" style="max-width: 250px;">
@@ -90,6 +88,15 @@ foreach ( $menukaartGeneralSettings as $option_name => $option_value ) {
                     } 
                     ?>
                 </select>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <label for="mk_disable_price_number_format"><?php _e('Disable Price Number Format', MENUKAART_TXT_DOMAIN); ?></label>
+            </th>
+            <td colspan="3">
+                <input type="checkbox" name="mk_disable_price_number_format" id="mk_disable_price_number_format" value="1" <?php echo $mk_disable_price_number_format ? 'checked' : ''; ?> >
+                <code><?php _e('This will disable price number format $99,99 and will display $99 only.', MENUKAART_TXT_DOMAIN); ?></code>
             </td>
         </tr>
     </table>

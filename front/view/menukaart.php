@@ -88,9 +88,13 @@ foreach ( $mk_meals as $meal ) {
 							$menukaartData->the_post();
 							$mk_price	= get_post_meta( $post->ID, 'mk_price', true );
 							$mk_img 	= MENUKAART_ASSETS . 'img/no-image.jpg';
-							
+
 							if ( has_post_thumbnail() ) {
 								$mk_img = get_the_post_thumbnail_url($post->ID,'full');
+							}
+
+							if ( ! $mk_disable_price_number_format ) {
+								$mk_price = number_format( ( esc_html( $mk_price ) / 100 ), 2, ",", "" );
 							}
 							?>
 							<div class="menukaart-menu-item">
@@ -99,7 +103,7 @@ foreach ( $mk_meals as $meal ) {
 								</div>
 								<div class="mk-menu-content">
 									<div class="menukaart-menu-name"><?php echo get_the_title(); ?></div>
-									<div class="menukaart-menu-price"><?php echo esc_html( $mk_currency ) . '' . number_format( ( esc_html( $mk_price ) / 100 ), 2, ",", "" ); ?></div>
+									<div class="menukaart-menu-price"><?php echo esc_html( $mk_currency ) . '' . $mk_price; ?></div>
 									<div class="menukaart-menu-desc">
 										<?php the_content(); ?>
 									</div>
