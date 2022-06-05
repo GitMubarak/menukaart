@@ -114,6 +114,7 @@
 .menukaart-menu-desc {
     width: 80%;
     border: 0px solid #000;
+    clear: both;
 }
 
 .menukaart-menu-desc p {

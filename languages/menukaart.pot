@@ -1,0 +1,309 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Menukaart\n"
+"POT-Creation-Date: 2022-06-05 12:31+0600\n"
+"PO-Revision-Date: 2021-12-27 03:58+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;esc_html_e;esc_html;esc_html_;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/cls-menukaart-admin.php:42 admin/cls-menukaart-admin.php:43
+#: admin/view/manage-views.php:9 menukaart.php:87
+msgid "Manage Views"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:51 admin/cls-menukaart-admin.php:52
+msgid "Usage & Tutorial"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:100 admin/cls-menukaart-admin.php:104
+msgid "All Menu Items"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:101
+msgid "All Menu Item"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:102
+msgid "Menukaart"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:103
+msgid "Parent Menu Item"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:105
+msgid "View Menu Item"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:106
+msgid "Add New Menu Item"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:107
+msgid "Add Menu Item"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:108
+msgid "Edit Menu Item"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:109
+msgid "Update Menu Item"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:110
+msgid "Search Menu Item"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:111
+msgid "Not Found"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:112
+msgid "Not found in Trash"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:115
+msgid "menukaart"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:116
+msgid "Description For Menukaart"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:141 admin/cls-menukaart-admin.php:151
+msgid "Courses"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:142
+msgid "Course"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:143
+msgid "Search Courses"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:144
+msgid "All Courses"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:145
+msgid "Parent Course"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:146
+msgid "Parent Course:"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:147
+msgid "Edit Course"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:148
+msgid "Update Course"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:149
+msgid "Add New Course"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:150
+msgid "New Course Name"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:171
+msgid "Menu Item Information"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:191
+msgid "Price"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:195
+msgid "1050 will display as 10,50 if you do not disable nummber format."
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:200
+msgid "Status"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:204
+msgid "Active"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:207
+msgid "Inactive"
+msgstr ""
+
+#: admin/view/help-usage.php:3
+msgid "Menukaart Video Tutorial"
+msgstr ""
+
+#: admin/view/help-usage.php:5
+msgid "Will be added soon."
+msgstr ""
+
+#: admin/view/manage-views.php:22
+msgid "General Settings"
+msgstr ""
+
+#: admin/view/manage-views.php:25
+msgid "Style Settings"
+msgstr ""
+
+#: admin/view/manage-views.php:35
+msgid "Coming Soon"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:17
+msgid "Global Font Family"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:26
+msgid "Hide Menu Title"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:32
+msgid "Menu Title Text"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:42
+msgid "Orber By"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:46
+msgid "Title"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:47
+msgid "Date"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:48
+msgid "Post Order"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:52
+msgid "Order With"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:56
+msgid "ASC"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:59
+msgid "DESC"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:64
+msgid "Menu Width"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:76
+msgid "Currency"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:95
+msgid "Disable Price Number Format"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:99
+msgid "This will disable price number format $99,99 and will display $99 only."
+msgstr ""
+
+#: admin/view/partial/general-settings.php:106
+#: admin/view/partial/styles-settings.php:144
+msgid "Save Settings"
+msgstr ""
+
+#: admin/view/partial/styles-settings.php:18
+msgid "Menu Title"
+msgstr ""
+
+#: admin/view/partial/styles-settings.php:23
+#: admin/view/partial/styles-settings.php:70
+msgid "Background Color"
+msgstr ""
+
+#: admin/view/partial/styles-settings.php:32
+#: admin/view/partial/styles-settings.php:79
+msgid "Border Color"
+msgstr ""
+
+#: admin/view/partial/styles-settings.php:39
+msgid "Border Width"
+msgstr ""
+
+#: admin/view/partial/styles-settings.php:43
+#: admin/view/partial/styles-settings.php:59
+#: admin/view/partial/styles-settings.php:99
+#: admin/view/partial/styles-settings.php:121
+#: admin/view/partial/styles-settings.php:137
+msgid "px"
+msgstr ""
+
+#: admin/view/partial/styles-settings.php:48
+#: admin/view/partial/styles-settings.php:88
+msgid "Font Color"
+msgstr ""
+
+#: admin/view/partial/styles-settings.php:55
+#: admin/view/partial/styles-settings.php:95
+msgid "Font Size"
+msgstr ""
+
+#: admin/view/partial/styles-settings.php:65
+msgid "Food Course"
+msgstr ""
+
+#: admin/view/partial/styles-settings.php:105
+msgid "Food Item"
+msgstr ""
+
+#: admin/view/partial/styles-settings.php:110
+msgid "Item Font Color"
+msgstr ""
+
+#: admin/view/partial/styles-settings.php:117
+msgid "Item Font Size"
+msgstr ""
+
+#: admin/view/partial/styles-settings.php:126
+msgid "Price Font Color"
+msgstr ""
+
+#: admin/view/partial/styles-settings.php:133
+msgid "Price Font Size"
+msgstr ""
+
+#: freemius/templates/plugin-info/description.php:30
+msgid "selling_point_"
+msgstr ""
+
+#: front/view/menukaart.php:102
+msgid "No Image Available"
+msgstr ""
+
+#: front/view/menukaart.php:116
+msgid "No Item Availalble"
+msgstr ""
+
+#: lib/freemius-integrator.php:65
+#, php-format
+msgid "Hey %1$s"
+msgstr ""
+
+#: lib/freemius-integrator.php:66
+#, php-format
+msgid "Please help us improve %2$s! If you opt-in, some data about your usage of %2$s will be sent to %5$s. If you skip this, that's okay! %2$s will still work just fine."
+msgstr ""

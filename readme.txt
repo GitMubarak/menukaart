@@ -67,6 +67,12 @@ Best food menu plugin that displays food items in your webpage by using the shor
 **Note: You must assing a menu to a child course. Otherwise it will not show.**
 
 
+**📋 Translation Ready:**
+
+* POT file included (/languages/)
+* Bengoli
+
+
 **👍 Feedback/Rating:**
 If you find this plugin helpful, feel free to give us your valuable review. Rate us and share this plugin with your friends and others. This will motivate us and help us to grow.
 [Rate Us](https://wordpress.org/support/plugin/menukaart/reviews/#new-post)
@@ -148,6 +154,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 * Font Awesome Free 6.1.1 integrated
 * Menu item image added
 * Disable Price Number Format option added
+* Translation pot file added
 
 = 1.2 =
 * Freemius integrated

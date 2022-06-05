@@ -191,8 +191,8 @@ class Menukaart_Admin
 					<label><?php _e('Price', MENUKAART_TXT_DOMAIN); ?>:</label>
 				</th>
 				<td>
-					<input type="number" min="0" max="10000000" step="1" name="mk_price" value="<?php esc_attr_e( $mk_price ); ?>" class="regular-text">
-					<code><?php _e('1050 will display as 10,50', MENUKAART_TXT_DOMAIN); ?></code>
+					<input type="number" min="0" max="10000000" step="1" name="mk_price" value="<?php esc_attr_e( $mk_price ); ?>" class="medium-text">
+					<code><?php _e('1050 will display as 10,50 if you do not disable nummber format.', MENUKAART_TXT_DOMAIN); ?></code>
 				</td>
 			</tr>
 			<tr>

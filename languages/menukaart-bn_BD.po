@@ -1,0 +1,320 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Menukaart\n"
+"POT-Creation-Date: 2022-06-05 12:31+0600\n"
+"PO-Revision-Date: 2022-06-05 06:33+0000\n"
+"Last-Translator: \n"
+"Language-Team: Bengali (Bangladesh)\n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;esc_html_e;esc_html;esc_html_;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.6.2; wp-6.0"
+
+#: admin/cls-menukaart-admin.php:42 admin/cls-menukaart-admin.php:43
+#: admin/view/manage-views.php:9 menukaart.php:87
+msgid "Manage Views"
+msgstr "পরিচালনা দেখেছে"
+
+#: admin/cls-menukaart-admin.php:51 admin/cls-menukaart-admin.php:52
+msgid "Usage & Tutorial"
+msgstr "ব্যবহার ও টিউটোরিয়াল"
+
+#: admin/cls-menukaart-admin.php:100 admin/cls-menukaart-admin.php:104
+msgid "All Menu Items"
+msgstr "সমস্ত মেনু আইটেম"
+
+#: admin/cls-menukaart-admin.php:101
+msgid "All Menu Item"
+msgstr "সমস্ত মেনু আইটেম"
+
+#: admin/cls-menukaart-admin.php:102
+msgid "Menukaart"
+msgstr "Menukaart"
+
+#: admin/cls-menukaart-admin.php:103
+msgid "Parent Menu Item"
+msgstr "পিতা বা মাতা মেনু আইটেম"
+
+#: admin/cls-menukaart-admin.php:105
+msgid "View Menu Item"
+msgstr "দেখুন মেনু আইটেম"
+
+#: admin/cls-menukaart-admin.php:106
+msgid "Add New Menu Item"
+msgstr "নতুন মেনু আইটেম যোগ"
+
+#: admin/cls-menukaart-admin.php:107
+msgid "Add Menu Item"
+msgstr "যোগ মেনু আইটেম"
+
+#: admin/cls-menukaart-admin.php:108
+msgid "Edit Menu Item"
+msgstr "সম্পাদনা মেনু আইটেম"
+
+#: admin/cls-menukaart-admin.php:109
+msgid "Update Menu Item"
+msgstr "আপডেট মেনু আইটেম"
+
+#: admin/cls-menukaart-admin.php:110
+msgid "Search Menu Item"
+msgstr "অনুসন্ধান মেনু আইটেম"
+
+#: admin/cls-menukaart-admin.php:111
+msgid "Not Found"
+msgstr "না পাওয়া"
+
+#: admin/cls-menukaart-admin.php:112
+msgid "Not found in Trash"
+msgstr "না পাওয়া যায়, ট্র্যাশ"
+
+#: admin/cls-menukaart-admin.php:115
+msgid "menukaart"
+msgstr "menukaart"
+
+#: admin/cls-menukaart-admin.php:116
+msgid "Description For Menukaart"
+msgstr "বিবরণ: জন্য Menukaart"
+
+#: admin/cls-menukaart-admin.php:141 admin/cls-menukaart-admin.php:151
+msgid "Courses"
+msgstr "কোর্স"
+
+#: admin/cls-menukaart-admin.php:142
+msgid "Course"
+msgstr "কোর্স"
+
+#: admin/cls-menukaart-admin.php:143
+msgid "Search Courses"
+msgstr "অনুসন্ধান কোর্স"
+
+#: admin/cls-menukaart-admin.php:144
+msgid "All Courses"
+msgstr "সব কোর্স"
+
+#: admin/cls-menukaart-admin.php:145
+msgid "Parent Course"
+msgstr "মূল কোর্স"
+
+#: admin/cls-menukaart-admin.php:146
+msgid "Parent Course:"
+msgstr "মূল কোর্স:"
+
+#: admin/cls-menukaart-admin.php:147
+msgid "Edit Course"
+msgstr "সম্পাদনা কোর্স"
+
+#: admin/cls-menukaart-admin.php:148
+msgid "Update Course"
+msgstr "আপডেট অবশ্যই"
+
+#: admin/cls-menukaart-admin.php:149
+msgid "Add New Course"
+msgstr "যোগ নতুন কোর্স"
+
+#: admin/cls-menukaart-admin.php:150
+msgid "New Course Name"
+msgstr "নতুন কোর্সের নাম"
+
+#: admin/cls-menukaart-admin.php:171
+msgid "Menu Item Information"
+msgstr "মেনু আইটেমটি তথ্য"
+
+#: admin/cls-menukaart-admin.php:191
+msgid "Price"
+msgstr "মূল্য"
+
+#: admin/cls-menukaart-admin.php:195
+msgid "1050 will display as 10,50 if you do not disable nummber format."
+msgstr ""
+"1050 হিসাবে প্রদর্শন করা হবে 10,50 যদি আপনি নিষ্ক্রিয় করবেন না nummber "
+"বিন্যাস."
+
+#: admin/cls-menukaart-admin.php:200
+msgid "Status"
+msgstr "অবস্থা"
+
+#: admin/cls-menukaart-admin.php:204
+msgid "Active"
+msgstr "সক্রিয়"
+
+#: admin/cls-menukaart-admin.php:207
+msgid "Inactive"
+msgstr "নিষ্ক্রিয়"
+
+#: admin/view/help-usage.php:3
+msgid "Menukaart Video Tutorial"
+msgstr "Menukaart ভিডিও টিউটোরিয়াল"
+
+#: admin/view/help-usage.php:5
+msgid "Will be added soon."
+msgstr "শীঘ্রই যোগ করা হবে."
+
+#: admin/view/manage-views.php:22
+msgid "General Settings"
+msgstr "সাধারণ সেটিংস"
+
+#: admin/view/manage-views.php:25
+msgid "Style Settings"
+msgstr "স্টাইল সেটিংস"
+
+#: admin/view/manage-views.php:35
+msgid "Coming Soon"
+msgstr "শীঘ্রই আসছে"
+
+#: admin/view/partial/general-settings.php:17
+msgid "Global Font Family"
+msgstr "গ্লোবাল ফন্ট পরিবার"
+
+#: admin/view/partial/general-settings.php:26
+msgid "Hide Menu Title"
+msgstr "আড়াল মেনু শিরোনাম"
+
+#: admin/view/partial/general-settings.php:32
+msgid "Menu Title Text"
+msgstr "মেনু শিরোনাম টেক্সট"
+
+#: admin/view/partial/general-settings.php:42
+msgid "Orber By"
+msgstr "Orber দ্বারা"
+
+#: admin/view/partial/general-settings.php:46
+msgid "Title"
+msgstr "শিরোনাম"
+
+#: admin/view/partial/general-settings.php:47
+msgid "Date"
+msgstr "আপলোড"
+
+#: admin/view/partial/general-settings.php:48
+msgid "Post Order"
+msgstr "পোস্ট করার জন্য"
+
+#: admin/view/partial/general-settings.php:52
+msgid "Order With"
+msgstr "অর্ডার দিয়ে"
+
+#: admin/view/partial/general-settings.php:56
+msgid "ASC"
+msgstr "ASC"
+
+#: admin/view/partial/general-settings.php:59
+msgid "DESC"
+msgstr "নিম্নক্রমে"
+
+#: admin/view/partial/general-settings.php:64
+msgid "Menu Width"
+msgstr "মেনু প্রস্থ"
+
+#: admin/view/partial/general-settings.php:76
+msgid "Currency"
+msgstr "মুদ্রা"
+
+#: admin/view/partial/general-settings.php:95
+msgid "Disable Price Number Format"
+msgstr "নিষ্ক্রিয় মূল্য সংখ্যা বিন্যাস"
+
+#: admin/view/partial/general-settings.php:99
+msgid "This will disable price number format $99,99 and will display $99 only."
+msgstr ""
+"এই নিষ্ক্রিয় করা হবে মূল্য সংখ্যা বিন্যাস $99,99 এবং প্রদর্শন করা হবে $99 "
+"শুধুমাত্র."
+
+#: admin/view/partial/general-settings.php:106
+#: admin/view/partial/styles-settings.php:144
+msgid "Save Settings"
+msgstr "সেটিংস সংরক্ষণ করুন"
+
+#: admin/view/partial/styles-settings.php:18
+msgid "Menu Title"
+msgstr "মেনু শিরোনাম"
+
+#: admin/view/partial/styles-settings.php:23
+#: admin/view/partial/styles-settings.php:70
+msgid "Background Color"
+msgstr "পটভূমির রঙ"
+
+#: admin/view/partial/styles-settings.php:32
+#: admin/view/partial/styles-settings.php:79
+msgid "Border Color"
+msgstr "সীমানা রং"
+
+#: admin/view/partial/styles-settings.php:39
+msgid "Border Width"
+msgstr "সীমানা প্রস্থ"
+
+#: admin/view/partial/styles-settings.php:43
+#: admin/view/partial/styles-settings.php:59
+#: admin/view/partial/styles-settings.php:99
+#: admin/view/partial/styles-settings.php:121
+#: admin/view/partial/styles-settings.php:137
+msgid "px"
+msgstr "px"
+
+#: admin/view/partial/styles-settings.php:48
+#: admin/view/partial/styles-settings.php:88
+msgid "Font Color"
+msgstr "ফন্ট রঙ"
+
+#: admin/view/partial/styles-settings.php:55
+#: admin/view/partial/styles-settings.php:95
+msgid "Font Size"
+msgstr "ফন্টের আকার"
+
+#: admin/view/partial/styles-settings.php:65
+msgid "Food Course"
+msgstr "খাদ্য কোর্স"
+
+#: admin/view/partial/styles-settings.php:105
+msgid "Food Item"
+msgstr "খাদ্য আইটেম"
+
+#: admin/view/partial/styles-settings.php:110
+msgid "Item Font Color"
+msgstr "আইটেম ফন্টের রং"
+
+#: admin/view/partial/styles-settings.php:117
+msgid "Item Font Size"
+msgstr "আইটেম ফন্টের আকার"
+
+#: admin/view/partial/styles-settings.php:126
+msgid "Price Font Color"
+msgstr "মূল্য ফন্ট রঙ"
+
+#: admin/view/partial/styles-settings.php:133
+msgid "Price Font Size"
+msgstr "দাম ফন্টের আকার"
+
+#: freemius/templates/plugin-info/description.php:30
+msgid "selling_point_"
+msgstr "selling_point_"
+
+#: front/view/menukaart.php:102
+msgid "No Image Available"
+msgstr "কোন ইমেজ উপলব্ধ"
+
+#: front/view/menukaart.php:116
+msgid "No Item Availalble"
+msgstr "কোন আইটেম Availalble"
+
+#: lib/freemius-integrator.php:65
+#, php-format
+msgid "Hey %1$s"
+msgstr "আরে %1$s"
+
+#: lib/freemius-integrator.php:66
+#, php-format
+msgid ""
+"Please help us improve %2$s! If you opt-in, some data about your usage of "
+"%2$s will be sent to %5$s. If you skip this, that's okay! %2$s will still "
+"work just fine."
+msgstr ""
+"দয়া করে আমাদের সাহায্য উন্নত %2$s! আপনি যদি অপ্ট ইন, কিছু তথ্য সম্পর্কে "
+"আপনার usage of %2$s will be sent to %5$s. যদি আপনি এই লাফালাফি, এটা ঠিক আছে! "
+"%2$s এখনও ঠিক সূক্ষ্ম কাজ করবে."
