@@ -53,6 +53,7 @@ Best food menu plugin that displays food items in your webpage by using the shor
 * Menu container width option
 * 150 currencies available
 * Font Awesome Free 6.1.1 integrated
+* Menu item image
 
 
 ➡️ Useage of Shortcode:⬅️
@@ -144,6 +145,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 = 1.3 =
 * Currency option added
 * Font Awesome Free 6.1.1 integrated
+* Menu item image added
 
 = 1.2 =
 * Freemius integrated

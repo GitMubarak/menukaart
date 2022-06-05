@@ -68,6 +68,27 @@
     clear: both;
 }
 
+.mk-menu-image {
+    width: 28%;
+    float: left;
+    margin: 0;
+    margin-right: 2%;
+    padding: 0;
+    min-height: 20px;
+}
+
+.mk-menu-content {
+    width: 70%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.mk-menu-image img {
+    width: 100%;
+    height: auto;
+}
+
 .menukaart-menu-name {
     font-family: inherit;
     width: 70%;
