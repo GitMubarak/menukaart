@@ -2,13 +2,13 @@
 /**
  * Plugin Name: 	    Menukaart
  * Plugin URI:		    http://wordpress.org/plugins/menukaart/
- * Description: 	    Best food menu plugin that displays menu items in your webpage by using the shortcode: [menukaart]
- * Version: 		    1.3
+ * Description: 	    A simple food menu plugin that displays menu items in your webpage by using the shortcode: [menukaart]
+ * Version: 		    1.4
  * Author:		        HM Plugin
  * Author URI:	        https://hmplugin.com
  * Requires at least:   5.2
  * Requires PHP:        7.2
- * Tested up to:        6.0
+ * Tested up to:        6.0.2
  * Text Domain:         menukaart
  * Domain Path:         /languages/
  * License:             GPL-2.0+
@@ -19,6 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
+/*
 if ( ! function_exists( 'men_fs' ) ) {
     // Create a helper function for easy SDK access.
     function men_fs() {
@@ -50,6 +51,7 @@ if ( ! function_exists( 'men_fs' ) ) {
     // Signal that SDK was initiated.
     do_action( 'men_fs_loaded' );
 }
+*/
 
 define('MENUKAART_PATH', plugin_dir_path(__FILE__));
 define('MENUKAART_ASSETS', plugins_url('/assets/', __FILE__));
@@ -57,10 +59,8 @@ define('MENUKAART_SLUG', plugin_basename(__FILE__));
 define('MENUKAART_PRFX', 'Menukaart_');
 define('MENUKAART_CLS_PRFX', 'cls-menukaart-');
 define('MENUKAART_TXT_DOMAIN', 'menukaart');
-define('MENUKAART_VERSION', '1.3');
+define('MENUKAART_VERSION', '1.4');
 
-//require_once MENUKAART_PATH . '/lib/freemius-integrator.php';
-//  - Restaurant Menu Plugin for WordPress
 require_once MENUKAART_PATH . 'inc/' . MENUKAART_CLS_PRFX . 'master.php';
 
 $menukaart = new Menukaart_Master();
