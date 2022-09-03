@@ -2,7 +2,7 @@
 /**
  * Plugin Name: 	    Menukaart
  * Plugin URI:		    http://wordpress.org/plugins/menukaart/
- * Description: 	    A simple food menu plugin that displays menu items in your webpage by using the shortcode: [menukaart]
+ * Description: 	    A simple restaurant food menu plugin that displays menu items in your webpage by using the shortcode: [menukaart]
  * Version: 		    1.4
  * Author:		        HM Plugin
  * Author URI:	        https://hmplugin.com
@@ -18,40 +18,6 @@
 if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
-
-/*
-if ( ! function_exists( 'men_fs' ) ) {
-    // Create a helper function for easy SDK access.
-    function men_fs() {
-        global $men_fs;
-
-        if ( ! isset( $men_fs ) ) {
-            // Include Freemius SDK.
-            require_once dirname(__FILE__) . '/freemius/start.php';
-
-            $men_fs = fs_dynamic_init( array(
-                'id'                  => '10227',
-                'slug'                => 'menukaart',
-                'type'                => 'plugin',
-                'public_key'          => 'pk_7bcfa68372216700582a0bedb5e6d',
-                'is_premium'          => false,
-                'has_addons'          => false,
-                'has_paid_plans'      => false,
-                'menu'                => array(
-                    'slug'           => 'edit.php?post_type=menukaart',
-                ),
-            ) );
-        }
-
-        return $men_fs;
-    }
-
-    // Init Freemius.
-    men_fs();
-    // Signal that SDK was initiated.
-    do_action( 'men_fs_loaded' );
-}
-*/
 
 define('MENUKAART_PATH', plugin_dir_path(__FILE__));
 define('MENUKAART_ASSETS', plugins_url('/assets/', __FILE__));

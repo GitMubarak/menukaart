@@ -1,4 +1,4 @@
-=== Menukaart - Food Menu Plugin ===
+=== WordPress Restaurant Menu Plugin - Menukaart ===
 Contributors: hmplugin, mhmrajib
 Donate link: https://www.paypal.me/mhmrajib
 Tags: café menu, restaurant, restaurant menu, food, Food Menu
@@ -9,15 +9,17 @@ Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Simple food menu plugin that displays food items in your webpage by using the shortcode: [menukaart]
+WordPress Restaurant Menu Plugin Menukaart is a food menu plugin that displays food items, menus in your WordPress webpage.
 
 == Description ==
 
-[__Live Demo__](https://demo.hmplugin.com/menukaart/) | [__Live Chat__](https://hmplugin.com) | [__Support__](https://hmplugin.com/contact/)
+[__Live Demo__](https://hmplugin.com/demo/menukaart-demo/) | [__Live Chat__](https://hmplugin.com/demo/menukaart-demo/) | [__Support__](https://hmplugin.com/contact/)
+
+[youtube https://youtu.be/_v_Kf9yVMgk]
 
 = Overview =
 
-**Menukaart** is the **Simplest Food Menu Plugin for WordPress** that displays food items in your webpage by using the shortcode: [menukaart]
+**Menukaart** is the **Simplest WordPress Restaurant Menu Plugin** that displays food items, menus in your webpage by using the shortcode: [menukaart]
 
 
 **🌟 Plugin Features:**
