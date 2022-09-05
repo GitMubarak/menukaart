@@ -80,6 +80,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
                     $menukaartData->the_post();
                     $mk_price	= get_post_meta( $post->ID, 'mk_price', true );
+                    $mk_wc_prod	= get_post_meta( $post->ID, 'mk_wc_prod', true );
                     $mk_img 	= MENUKAART_ASSETS . 'img/no-image.jpg';
 
                     if ( has_post_thumbnail() ) {
@@ -89,6 +90,8 @@ if ( ! defined( 'ABSPATH' ) ) {
                     if ( ! $mk_disable_price_number_format ) {
                         $mk_price = number_format( ( esc_html( $mk_price ) / 100 ), 2, ",", "" );
                     }
+
+                    $mk_wc_url = esc_url( home_url( $mk_wc_url_prefix . $mk_wc_prod ) );
                     ?>
                     <div class="menukaart-menu-item">
                         <div class="mk-menu-image">
@@ -100,7 +103,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                             <div class="menukaart-menu-desc">
                                 <?php the_content(); ?>
                             </div>
-                            <a href="<?php echo esc_url( $mk_wc_url_prefix ); ?>" class="button mk-button" target="_blank">
+                            <a href="<?php echo $mk_wc_url; ?>" class="button mk-button" target="_blank">
                                 <i class="fa-solid fa-download"></i>&nbsp;<?php _e('Order Now', MENUKAART_TXT_DOMAIN); ?>
                             </a>
                         </div>

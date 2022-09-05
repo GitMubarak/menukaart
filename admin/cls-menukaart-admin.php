@@ -183,6 +183,7 @@ class Menukaart_Admin
 		wp_nonce_field( basename(__FILE__), 'menukaart_fields' );
 
 		$mk_price		= get_post_meta( $post->ID, 'mk_price', true );
+		$mk_wc_prod		= get_post_meta( $post->ID, 'mk_wc_prod', true );
 		$mk_status		= get_post_meta( $post->ID, 'mk_status', true );
 		?>
 		<table class="form-table">
@@ -193,6 +194,14 @@ class Menukaart_Admin
 				<td>
 					<input type="number" min="0" max="10000000" step="1" name="mk_price" value="<?php esc_attr_e( $mk_price ); ?>" class="medium-text">
 					<code><?php _e('1050 will display as 10,50 if you do not disable nummber format.', MENUKAART_TXT_DOMAIN); ?></code>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<label><?php _e('WC Product ID', MENUKAART_TXT_DOMAIN); ?>:</label>
+				</th>
+				<td>
+					<input type="text" name="mk_wc_prod" class="medium-text" value="<?php esc_attr_e( $mk_wc_prod ); ?>">
 				</td>
 			</tr>
 			<tr>
@@ -226,8 +235,9 @@ class Menukaart_Admin
 			return $post_id;
 		}
 
-		$menukaart_meta['mk_price'] 	= sanitize_text_field( $_POST['mk_price'] ) ? sanitize_text_field( $_POST['mk_price'] ) : '';
-		$menukaart_meta['mk_status']	= ( sanitize_text_field( $_POST['mk_status'] ) != '' ) ? sanitize_text_field( $_POST['mk_status'] ) : '';
+		$menukaart_meta['mk_price'] 	= isset( $_POST['mk_price'] ) ? sanitize_text_field( $_POST['mk_price'] ) : '';
+		$menukaart_meta['mk_wc_prod']	= isset( $_POST['mk_wc_prod'] ) ? sanitize_text_field( $_POST['mk_wc_prod'] ) : '';
+		$menukaart_meta['mk_status']	= isset( $_POST['mk_status'] ) ? sanitize_text_field( $_POST['mk_status'] ) : '';
 
 		foreach ( $menukaart_meta as $key => $value ) {
 

@@ -20,6 +20,7 @@ WordPress Restaurant Menu Plugin Menukaart is a food menu plugin that displays f
 = Overview =
 
 **Menukaart** is the **Simplest WordPress Restaurant Menu Plugin** that displays food items, menus in your webpage by using the shortcode: [menukaart]
+You can also manage online order with WooCommerce.
 
 
 **🌟 Plugin Features:**
@@ -30,6 +31,7 @@ WordPress Restaurant Menu Plugin Menukaart is a food menu plugin that displays f
 * Shortcoded
 * Simple but effective
 * Custom Post Type
+* Manage online order with WooCommerce
 * Unlimited  Menu Items
 * Show-Hide a Menu Item
 * Display Menu Item by Courses
@@ -150,6 +152,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 = 1.4 =
 * Classic template introduced
 * Order now Url prefix option added
+* Manage online order with WooCommerce
 * Freemius integration removed temporary
 
 = 1.3 =
