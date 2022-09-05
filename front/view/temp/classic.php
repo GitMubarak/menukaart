@@ -18,6 +18,16 @@ $menukaartArr = array(
     ),
 );
 
+if ( '' !== $mkCategory ) {
+    $menukaartArr['tax_query'] = array(
+        array(
+            'taxonomy' => 'menukaart_courses',
+            'field' => 'name',
+            'terms' => urldecode ( $mkCategory )
+        )
+    );
+}
+
 // Load Search Panel
 include MENUKAART_PATH . 'front/view/search.php';
 

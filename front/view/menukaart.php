@@ -20,6 +20,7 @@ foreach ( $menukaartStylesSettings as $option_name => $option_value ) {
 
 // Shortcoded Options
 $mkTemp = isset( $mkAttr['template'] ) ? $mkAttr['template'] : null;
+$mkCategory = isset( $mkAttr['category'] ) ? $mkAttr['category'] : null;
 
 // Loading styles
 include MENUKAART_PATH . 'assets/css/menukaart-styles.php';

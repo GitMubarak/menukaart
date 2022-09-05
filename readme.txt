@@ -32,6 +32,8 @@ You can also manage online order with WooCommerce.
 * Simple but effective
 * Custom Post Type
 * Manage online order with WooCommerce
+* Search panel integrated
+* Display menu by category
 * Unlimited  Menu Items
 * Show-Hide a Menu Item
 * Display Menu Item by Courses
@@ -63,12 +65,13 @@ You can also manage online order with WooCommerce.
 
 ➡️ Useage of Shortcode:⬅️
 
-<strong> Use the below Shortcode to display Menucart </strong>
+<strong> Use the below shortcode to display food menu </strong>
 
-<pre> [menukaart] </pre>
+<pre> [menukaart template='classic'] </pre>
 
+<strong> Dsiplay food menu of a specific category </strong>
 
-**Note: You must assing a menu to a child course. Otherwise it will not show.**
+<pre> [menukaart template='classic' category='starters'] </pre>
 
 
 **📋 Translation Ready:**
@@ -154,6 +157,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 * Order now Url prefix option added
 * Manage online order with WooCommerce
 * Search panel integrated
+* Dsiplay food menu of a specific category
 * Freemius integration removed temporary
 
 = 1.3 =
