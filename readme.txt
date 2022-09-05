@@ -153,6 +153,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 * Classic template introduced
 * Order now Url prefix option added
 * Manage online order with WooCommerce
+* Search panel integrated
 * Freemius integration removed temporary
 
 = 1.3 =

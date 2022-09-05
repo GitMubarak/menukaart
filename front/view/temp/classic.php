@@ -2,6 +2,26 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
+$menukaartArr = array(
+    'post_type'   => 'menukaart',
+    'post_status' => 'publish',
+    'orderby'     => $mk_order_by,
+    'order'       => $mk_order_with,
+    'meta_query'  => array(
+        'relation' => 'and',
+        array(
+        'key' => 'mk_status',
+        'value' => 'active',
+        'compare' => '='
+        ),
+    ),
+);
+
+// Load Search Panel
+include MENUKAART_PATH . 'front/view/search.php';
+
+$menukaartData = new WP_Query( $menukaartArr );
 ?>
 <style type="text/css">
     .menukaart-content-wrapper {
@@ -57,23 +77,6 @@ if ( ! defined( 'ABSPATH' ) ) {
         
         <div class="menukaart-menu-item-container">
             <?php
-            $menukaartArr = array(
-                'post_type'   => 'menukaart',
-                'post_status' => 'publish',
-                'orderby'     => $mk_order_by,
-                'order'       => $mk_order_with,
-                'meta_query'  => array(
-                    'relation' => 'and',
-                    array(
-                    'key' => 'mk_status',
-                    'value' => 'active',
-                    'compare' => '='
-                    ),
-                ),
-            );
-
-            $menukaartData = new WP_Query( $menukaartArr );
-
             if ( $menukaartData->have_posts() ) {
 
                 while ( $menukaartData->have_posts() ) {
@@ -104,7 +107,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                                 <?php the_content(); ?>
                             </div>
                             <a href="<?php echo $mk_wc_url; ?>" class="button mk-button" target="_blank">
-                                <i class="fa-solid fa-download"></i>&nbsp;<?php _e('Order Now', MENUKAART_TXT_DOMAIN); ?>
+                                <i class="fa-solid fa-cart-shopping"></i>&nbsp;<?php _e('Order Now', MENUKAART_TXT_DOMAIN); ?>
                             </a>
                         </div>
                     </div>
@@ -112,7 +115,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                 }
                 
             } else {
-                _e('No Item Availalble', MENUKAART_TXT_DOMAIN);
+                _e('No food availalble. Please add one.', MENUKAART_TXT_DOMAIN);
             }
             wp_reset_postdata();
             ?>

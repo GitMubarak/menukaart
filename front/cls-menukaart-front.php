@@ -21,6 +21,14 @@ class Menukaart_Front
 		
 		wp_enqueue_style( 'custom-google-fonts', '//fonts.googleapis.com/css2?family=Oswald&display=swap', false );
 
+		wp_enqueue_style(
+			$this->menukaart_assets_prefix . 'font-awesome', 
+			MENUKAART_ASSETS .'css/fontawesome/css/all.min.css',
+			array(),
+			$this->menukaart_version,
+			FALSE
+		);
+
 		wp_enqueue_style('menukaart-front',
 			MENUKAART_ASSETS . 'css/' . $this->menukaart_assets_prefix . 'front.css',
 			array(),
