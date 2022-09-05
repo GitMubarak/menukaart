@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Menukaart\n"
-"POT-Creation-Date: 2022-06-05 12:31+0600\n"
+"POT-Creation-Date: 2022-09-06 02:44+0600\n"
 "PO-Revision-Date: 2021-12-27 03:58+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -11,13 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: _e;esc_html_e;esc_html;esc_html_;__\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: admin/cls-menukaart-admin.php:42 admin/cls-menukaart-admin.php:43
-#: admin/view/manage-views.php:9 menukaart.php:87
+#: admin/view/manage-views.php:9 menukaart.php:53
 msgid "Manage Views"
 msgstr ""
 
@@ -125,32 +125,32 @@ msgstr ""
 msgid "Menu Item Information"
 msgstr ""
 
-#: admin/cls-menukaart-admin.php:191
+#: admin/cls-menukaart-admin.php:192
 msgid "Price"
 msgstr ""
 
-#: admin/cls-menukaart-admin.php:195
+#: admin/cls-menukaart-admin.php:196
 msgid "1050 will display as 10,50 if you do not disable nummber format."
 msgstr ""
 
-#: admin/cls-menukaart-admin.php:200
+#: admin/cls-menukaart-admin.php:201
+msgid "WC Product ID"
+msgstr ""
+
+#: admin/cls-menukaart-admin.php:209
 msgid "Status"
 msgstr ""
 
-#: admin/cls-menukaart-admin.php:204
+#: admin/cls-menukaart-admin.php:213
 msgid "Active"
 msgstr ""
 
-#: admin/cls-menukaart-admin.php:207
+#: admin/cls-menukaart-admin.php:216
 msgid "Inactive"
 msgstr ""
 
 #: admin/view/help-usage.php:3
 msgid "Menukaart Video Tutorial"
-msgstr ""
-
-#: admin/view/help-usage.php:5
-msgid "Will be added soon."
 msgstr ""
 
 #: admin/view/manage-views.php:22
@@ -221,7 +221,11 @@ msgstr ""
 msgid "This will disable price number format $99,99 and will display $99 only."
 msgstr ""
 
-#: admin/view/partial/general-settings.php:106
+#: admin/view/partial/general-settings.php:104
+msgid "Order Now Url"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:114
 #: admin/view/partial/styles-settings.php:144
 msgid "Save Settings"
 msgstr ""
@@ -286,15 +290,31 @@ msgstr ""
 msgid "Price Font Size"
 msgstr ""
 
-#: freemius/templates/plugin-info/description.php:30
-msgid "selling_point_"
+#: front/view/search.php:129
+msgid "Food Title"
 msgstr ""
 
-#: front/view/menukaart.php:102
+#: front/view/search.php:134
+msgid "All Food Category"
+msgstr ""
+
+#: front/view/search.php:146
+msgid "Search Foods"
+msgstr ""
+
+#: front/view/temp/classic.php:113 front/view/temp/menucart.php:77
 msgid "No Image Available"
 msgstr ""
 
-#: front/view/menukaart.php:116
+#: front/view/temp/classic.php:122
+msgid "Order Now"
+msgstr ""
+
+#: front/view/temp/classic.php:130
+msgid "No food availalble. Please add one."
+msgstr ""
+
+#: front/view/temp/menucart.php:91
 msgid "No Item Availalble"
 msgstr ""
 
