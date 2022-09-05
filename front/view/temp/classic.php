@@ -8,6 +8,8 @@ if ( ! defined( 'ABSPATH' ) ) {
         margin: 0 auto;
         padding: 30px;
         display: inline-block;
+        box-shadow: none;
+        border: none;
     }
     .menukaart-menu-item-container {
         margin-bottom: 0px;
