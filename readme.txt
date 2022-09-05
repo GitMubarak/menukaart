@@ -33,10 +33,10 @@ You can also manage online order with WooCommerce.
 * Custom Post Type
 * Manage online order with WooCommerce
 * Search panel integrated
-* Display menu by category
+* Display food menu of a category
 * Unlimited  Menu Items
 * Show-Hide a Menu Item
-* Display Menu Item by Courses
+* Display food menu category wise
 * Menu Item with Price
 * Menu order by Title, date and post order
 * Menu order with ASC/DESC
@@ -69,9 +69,13 @@ You can also manage online order with WooCommerce.
 
 <pre> [menukaart template='classic'] </pre>
 
-<strong> Dsiplay food menu of a specific category </strong>
+<strong> Display food menu of a specific category </strong>
 
 <pre> [menukaart template='classic' category='starters'] </pre>
+
+<strong> Hide search bar shorcode option </strong>
+
+<pre> [menukaart template='classic' search='hide'] </pre>
 
 
 **📋 Translation Ready:**
@@ -157,7 +161,8 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 * Order now Url prefix option added
 * Manage online order with WooCommerce
 * Search panel integrated
-* Dsiplay food menu of a specific category
+* Display food menu of a specific category
+* Hide search bar option in shortcode
 * Freemius integration removed temporary
 
 = 1.3 =

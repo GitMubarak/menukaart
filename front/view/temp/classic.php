@@ -29,7 +29,9 @@ if ( '' !== $mkCategory ) {
 }
 
 // Load Search Panel
-include MENUKAART_PATH . 'front/view/search.php';
+if ( 'hide' !== $mkSearch ) {
+    include MENUKAART_PATH . 'front/view/search.php';
+}
 
 $menukaartData = new WP_Query( $menukaartArr );
 ?>
