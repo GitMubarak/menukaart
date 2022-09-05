@@ -18,12 +18,37 @@ if ( ! defined( 'ABSPATH' ) ) {
     .menukaart-menu-item-wrapper, .menukaart-menu-item {
         display: inline-block;
     }
+    .mk-button {
+        display: inline-block;
+        margin: 0;
+        margin-top: 5px;
+        padding: 12px 15px;
+        cursor: pointer;
+        border-style: solid;
+        -webkit-appearance: none;
+        border-radius: 3px;
+        white-space: nowrap;
+        box-sizing: border-box;
+        line-height: 14px;
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none!important;
+        width: auto;
+        color: #242424;
+        background: #DDDDDD;
+    }
+    .mk-button:hover {
+        background: #242424;
+        color: #FFFFFF;
+    }
     @media only screen and (max-width: 767px) {
         .menukaart-content-wrapper {
             padding: 0px;
         }
         .menukaart-menu-item-wrapper, .menukaart-menu-item {
-            margin-bottom: 20px;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #DDDDDD;
         }
     }
 </style>
@@ -75,6 +100,9 @@ if ( ! defined( 'ABSPATH' ) ) {
                             <div class="menukaart-menu-desc">
                                 <?php the_content(); ?>
                             </div>
+                            <a href="<?php echo esc_url( $mk_wc_url_prefix ); ?>" class="button mk-button" target="_blank">
+                                <i class="fa-solid fa-download"></i>&nbsp;<?php _e('Order Now', MENUKAART_TXT_DOMAIN); ?>
+                            </a>
                         </div>
                     </div>
                     <?php

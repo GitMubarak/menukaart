@@ -77,6 +77,11 @@ trait Menukaart_General_Settings
                 'type'      => 'boolean',
                 'default'   => false,
             ],
+            [
+                'name'      => 'mk_wc_url_prefix',
+                'type'      => 'text',
+                'default'   => '/cart/?add-to-cart=',
+            ],
         ];
 
     }

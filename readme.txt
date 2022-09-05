@@ -87,13 +87,12 @@ If you find this plugin helpful, feel free to give us your valuable review. Rate
 👉 [WordPress News Plugin](https://wordpress.org/plugins/wp-top-news/) Display internal and external news in various layouts
 👉 [WordPress Notification Bar Plugin](https://wordpress.org/plugins/tiny-bar/) Dsiplay message and a button at the top or bottom of your webpage
 👉 [WordPress HM – Cool Author Box](https://wordpress.org/plugins/hm-cool-author-box-widget/) Author Box plugin for WordPress to display author info
+👉 [HM Logo Showcase](https://wordpress.org/plugins/hm-logo-showcase/) Logo manager plugin for WordPress
 👉 [WordPress HM Resume Manager](https://wordpress.org/plugins/hm-resume-manager/) A Resume/CV Manager Plugin for WordPress
-👉 [WordPressHM Product Catalog](https://wordpress.org/plugins/hm-product-catalog/) A Product Catalog Plugin for WordPress
+👉 [WordPress Product Catalog](https://wordpress.org/plugins/hm-product-catalog/) A Product Catalog Plugin for WordPress
 👉 [HM Wc Product Advertiser](https://wordpress.org/plugins/hm-wc-product-advertiser/) Product Advertiser Plugin for Wocommerce
-👉 [WP Scroll To Post](https://wordpress.org/plugins/wp-scroll-to-post/) Display random post(Single) at the bottom right corner
 👉 [FaceBook LikeBox](https://wordpress.org/plugins/hm-simple-facebook-page/) A FaceBook LikeBox Plugin for WordPress
 👉 [WP Display FAQ](https://wordpress.org/plugins/wp-display-faq/) FAQs manager plugin for WordPress
-👉 [HM Logo Showcase](https://wordpress.org/plugins/hm-logo-showcase/) Logo manager plugin for WordPress
 
 
 == Installation ==
@@ -150,6 +149,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 
 = 1.4 =
 * Classic template introduced
+* Order now Url prefix option added
 * Freemius integration removed temporary
 
 = 1.3 =

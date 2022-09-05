@@ -99,6 +99,14 @@ foreach ( $menukaartGeneralSettings as $option_name => $option_value ) {
                 <code><?php _e('This will disable price number format $99,99 and will display $99 only.', MENUKAART_TXT_DOMAIN); ?></code>
             </td>
         </tr>
+        <tr>
+            <th scope="row">
+                <label><?php _e('Order Now Url', MENUKAART_TXT_DOMAIN); ?></label>
+            </th>
+            <td colspan="3">
+                <input type="text" name="mk_wc_url_prefix" class="regular-text" value="<?php esc_attr_e( $mk_wc_url_prefix ); ?>">
+            </td>
+        </tr>
     </table>
     <hr>
     <p class="submit">
