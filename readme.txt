@@ -1,38 +1,48 @@
-=== WordPress Restaurant Menu Plugin - Menukaart ===
+=== Menukaart - Restaurant Menu & Online Ordering with WooCommerce ===
 Contributors: hmplugin, mhmrajib
 Donate link: https://www.paypal.me/mhmrajib
 Tags: café menu, restaurant, restaurant menu, food, Food Menu
 Requires at least: 5.2
-Tested up to: 6.0.2
-Stable tag: 1.4
+Tested up to: 6.2.2
+Stable tag: 1.5
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WordPress Restaurant Menu Plugin Menukaart is a food menu plugin that displays food items, menus in your WordPress webpage.
+An easy WordPress restaurant plugin for online food ordering with WooCommerce.
 
 == Description ==
 
-[__Live Demo__](https://hmplugin.com/demo/menukaart-demo/) | [__Live Chat__](https://hmplugin.com/demo/menukaart-demo/) | [__Support__](https://hmplugin.com/contact/)
+**Menukaart** is an easy-to-manage WordPress food menu plugin that allows you to create a responsive restaurant menu and online food ordering system with WooCommerce.
+You can display your food menu category wise or from a specific category with this WordPress food menu plugin.
+
+[__Live Demo__](http://menukaart.hmplugin.com/demo/) | [__Live Chat__](http://menukaart.hmplugin.com/) | [__Support__](http://menukaart.hmplugin.com/contact/)
 
 [youtube https://youtu.be/_v_Kf9yVMgk]
 
-= Overview =
+= ✅ Fully Customizable =
 
-**Menukaart** is the **Simplest WordPress Restaurant Menu Plugin** that displays food items, menus in your webpage by using the shortcode: [menukaart]
-You can also manage online order with WooCommerce.
+With this food menu plugin you can customize your menu very easily and extensively. You active, inactive a menu item, you can order your food items and change colors and font size of your food title.
+
+= ✅ Order online with WooCommerce =
+
+You can easily manage online ordering with WooCommerce. A order button is avalable in the food menu wich will take the customers to the WooCommerce cart page.
+
+= ✅ Seach panel integrated =
+
+There is a search panel available at the top of the restaurant food menu where visitors can search food items by food name and food category.
+
+= ✅ Multiple Layouts =
+
+There are multiple layouts available where you can display food menus categories wise or in a classic way.
+
+
+This WordPress Restaurant Menu Plugin is a simple, effective and powerful plugin to display your desired food menu.
 
 
 **🌟 Plugin Features:**
 
-* Easy to install
-* Fully integrated in WordPress
 * Fully responsive for any device
-* Shortcoded
-* Simple but effective
-* Custom Post Type
-* Manage online order with WooCommerce
-* Search panel integrated
 * Display food menu of a category
 * Unlimited  Menu Items
 * Show-Hide a Menu Item
@@ -149,12 +159,16 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 
 == Screenshots ==
 
-1. Showing Menukaart as a Food Menu Card
-2. Showing general settings page
-3. Showing styles settings page
+1. Display food menu default view
+2. Display food menu category wise
+3. Showing general settings page
+4. Showing styles settings page
 
 
 == Changelog ==
+
+= 1.5 =
+* Classic
 
 = 1.4 =
 * Classic template introduced
