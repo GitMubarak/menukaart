@@ -168,7 +168,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 == Changelog ==
 
 = 1.5 =
-* Classic
+* Code Optimized
 
 = 1.4 =
 * Classic template introduced
