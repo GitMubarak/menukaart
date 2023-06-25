@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Menukaart\n"
-"POT-Creation-Date: 2022-09-06 02:45+0600\n"
+"POT-Creation-Date: 2023-06-26 04:14+0600\n"
 "PO-Revision-Date: 2021-12-27 03:58+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.3.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: _e;esc_html_e;esc_html;esc_html_;__\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -290,27 +290,27 @@ msgstr ""
 msgid "Price Font Size"
 msgstr ""
 
-#: front/view/search.php:129
+#: front/view/search.php:130
 msgid "Food Title"
 msgstr ""
 
-#: front/view/search.php:134
+#: front/view/search.php:135
 msgid "All Food Category"
 msgstr ""
 
-#: front/view/search.php:146
+#: front/view/search.php:147
 msgid "Search Foods"
 msgstr ""
 
-#: front/view/temp/classic.php:113 front/view/temp/menucart.php:77
+#: front/view/temp/classic.php:67 front/view/temp/menucart.php:77
 msgid "No Image Available"
 msgstr ""
 
-#: front/view/temp/classic.php:122
+#: front/view/temp/classic.php:76
 msgid "Order Now"
 msgstr ""
 
-#: front/view/temp/classic.php:130
+#: front/view/temp/classic.php:84
 msgid "No food availalble. Please add one."
 msgstr ""
 
