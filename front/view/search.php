@@ -108,6 +108,7 @@ $mk_categories   = get_terms( array( 'taxonomy' => 'menukaart_courses', 'hide_em
         width: 50px;
         height: 45px;
         border: 1px solid #666666;
+        text-decoration: none;
     }
 
     .mk-search-container .mk-search-item a#mk-search-refresh:hover {

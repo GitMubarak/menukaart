@@ -169,6 +169,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 
 = 1.5 =
 * Code Optimized
+* Css fixed
 
 = 1.4 =
 * Classic template introduced
