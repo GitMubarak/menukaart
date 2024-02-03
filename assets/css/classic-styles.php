@@ -7,7 +7,6 @@ if ( ! defined( 'ABSPATH' ) ) {
     .menukaart-content-wrapper {
         margin: 0 auto;
         padding: 30px;
-        display: inline-block;
         box-shadow: none;
         border: none;
     }
@@ -21,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     .mk-button {
         display: inline-block;
         margin: 0;
-        margin-top: 5px;
+        margin-top: 5px!important;
         padding: 12px 15px;
         cursor: pointer;
         border-style: solid;
@@ -34,8 +33,8 @@ if ( ! defined( 'ABSPATH' ) ) {
         text-align: center;
         text-decoration: none!important;
         width: auto;
-        color: #242424;
-        background: #DDDDDD;
+        color: #242424!important;
+        background: #DDDDDD!important;
     }
     .mk-button:hover {
         background: #242424;

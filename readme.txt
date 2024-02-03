@@ -168,6 +168,8 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 == Changelog ==
 
 = 1.6.1 =
+* Order now goes to direct checkout page instead of cart page
+* Css fixed
 * Code Optimized
 
 = 1.5 =

@@ -57,3 +57,9 @@ function menukaart_show_extra_link( $links ) {
 
 }
 add_action( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'menukaart_show_extra_link' );
+
+// Skip cart page and go to the checkout page directly :)
+add_filter( 'woocommerce_add_to_cart_redirect', 'mk_skip_woo_cart' );
+function mk_skip_woo_cart() {
+    return wc_get_checkout_url();
+}

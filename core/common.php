@@ -17,7 +17,7 @@ trait Menukaart_Common
 				<h3 class="hndle"><span>Support / Live Chat</span></h3>
 				<div class="inside centered">
 					<p>Please feel free to let us know if you have any bugs to report. Your report / suggestion can make the plugin awesome!</p>
-					<p style="margin-bottom: 1px! important;"><a href="https://hmplugin.com/contact/" target="_blank" class="button button-primary">Get Support</a></p>
+					<p style="margin-bottom: 1px! important;"><a href="http://menukaart.hmplugin.com/" target="_blank" class="button button-primary">Get Support</a></p>
 				</div>
 			</div>
 			<div class="postbox">

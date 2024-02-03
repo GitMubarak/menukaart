@@ -28,17 +28,20 @@ if ( '' !== $mkCategory ) {
     );
 }
 
-// Load Search Panel
-if ( 'hide' !== $mkSearch ) {
-    include MENUKAART_PATH . 'front/view/search.php';
-}
-
 // Loading styles
 include MENUKAART_PATH . 'assets/css/classic-styles.php';
 
 $menukaartData = new WP_Query( $menukaartArr );
 ?>
 <div class="menukaart-content-wrapper">
+
+    <?php
+    // Load Search Panel
+    if ( 'hide' !== $mkSearch ) {
+        include MENUKAART_PATH . 'front/view/search.php';
+    }
+    ?>
+
     <div class="menukaart-course">
         
         <div class="menukaart-menu-item-container">
@@ -64,7 +67,7 @@ $menukaartData = new WP_Query( $menukaartArr );
                     ?>
                     <div class="menukaart-menu-item">
                         <div class="mk-menu-image">
-                            <img src="<?php echo esc_url( $mk_img ); ?>" alt="<?php _e( 'No Image Available', MENUKAART_TXT_DOMAIN ); ?>">
+                            <img src="<?php echo esc_url( $mk_img ); ?>" alt="<?php _e('No Image Available', 'menukaart'); ?>">
                         </div>
                         <div class="mk-menu-content">
                             <div class="menukaart-menu-name"><?php echo get_the_title(); ?></div>
@@ -72,8 +75,8 @@ $menukaartData = new WP_Query( $menukaartArr );
                             <div class="menukaart-menu-desc">
                                 <?php the_content(); ?>
                             </div>
-                            <a href="<?php echo $mk_wc_url; ?>" class="button mk-button" target="_blank">
-                                <i class="fa-solid fa-cart-shopping"></i>&nbsp;<?php _e('Order Now', MENUKAART_TXT_DOMAIN); ?>
+                            <a href="<?php echo $mk_wc_url; ?>" class="button mk-button">
+                                <i class="fa-solid fa-cart-shopping"></i>&nbsp;<?php _e('Order Now', 'menukaart'); ?>
                             </a>
                         </div>
                     </div>
@@ -81,7 +84,7 @@ $menukaartData = new WP_Query( $menukaartArr );
                 }
                 
             } else {
-                _e('No food availalble. Please add one.', MENUKAART_TXT_DOMAIN);
+                _e('No food availalble right now', 'menukaart');
             }
             wp_reset_postdata();
             ?>
