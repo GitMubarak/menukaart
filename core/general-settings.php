@@ -82,6 +82,11 @@ trait Menukaart_General_Settings
                 'type'      => 'text',
                 'default'   => '/cart/?add-to-cart=',
             ],
+            [
+                'name'      => 'mk_enable_online_ordering',
+                'type'      => 'boolean',
+                'default'   => false,
+            ],
         ];
 
     }

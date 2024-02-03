@@ -101,10 +101,10 @@ foreach ( $menukaartGeneralSettings as $option_name => $option_value ) {
         </tr>
         <tr>
             <th scope="row">
-                <label><?php _e('Order Now Url', MENUKAART_TXT_DOMAIN); ?></label>
+                <label for="mk_enable_online_ordering"><?php _e('Enable Online Ordering', MENUKAART_TXT_DOMAIN); ?></label>
             </th>
             <td colspan="3">
-                <input type="text" name="mk_wc_url_prefix" class="regular-text" value="<?php esc_attr_e( $mk_wc_url_prefix ); ?>">
+            <input type="checkbox" name="mk_enable_online_ordering" id="mk_enable_online_ordering" value="1" <?php echo $mk_enable_online_ordering ? 'checked' : ''; ?>>
             </td>
         </tr>
     </table>

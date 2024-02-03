@@ -63,7 +63,7 @@ include MENUKAART_PATH . 'assets/css/classic-styles.php';
                         $mk_price = number_format( ( esc_html( $mk_price ) / 100 ), 2, ",", "" );
                     }
 
-                    $mk_wc_url = esc_url( home_url( $mk_wc_url_prefix . $mk_wc_prod ) );
+                    //$mk_wc_url = esc_url( home_url( $mk_wc_url_prefix . $mk_wc_prod ) );
                     ?>
                     <div class="menukaart-menu-item">
                         <div class="mk-menu-image">
@@ -75,9 +75,15 @@ include MENUKAART_PATH . 'assets/css/classic-styles.php';
                             <div class="menukaart-menu-desc">
                                 <?php the_content(); ?>
                             </div>
-                            <a href="<?php echo $mk_wc_url; ?>" class="button mk-button">
-                                <i class="fa-solid fa-cart-shopping"></i>&nbsp;<?php _e('Order Now', 'menukaart'); ?>
-                            </a>
+                            <?php
+                            if ( $mk_enable_online_ordering ) {
+                                ?>
+                                <a href="<?php echo esc_url( home_url( '?add-to-cart=' . $mk_wc_prod ) );; ?>" class="button mk-button">
+                                    <i class="fa-solid fa-cart-shopping"></i>&nbsp;<?php _e('Order Now', 'menukaart'); ?>
+                                </a>
+                                <?php
+                            }
+                            ?>
                         </div>
                     </div>
                     <?php
