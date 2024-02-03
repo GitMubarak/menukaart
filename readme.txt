@@ -169,6 +169,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 
 = 1.6.1 =
 * Order now goes to direct checkout page instead of cart page
+* Select WooCommerce product list added in admin 
 * Css fixed
 * Code Optimized
 

@@ -177,47 +177,10 @@ class Menukaart_Admin
 	}
 
 	function menukaart_metabox_content() {
-		
-		global $post;
 
 		wp_nonce_field( basename(__FILE__), 'menukaart_fields' );
-
-		$mk_price		= get_post_meta( $post->ID, 'mk_price', true );
-		$mk_wc_prod		= get_post_meta( $post->ID, 'mk_wc_prod', true );
-		$mk_status		= get_post_meta( $post->ID, 'mk_status', true );
-		?>
-		<table class="form-table">
-			<tr>
-				<th scope="row">
-					<label><?php _e('Price', MENUKAART_TXT_DOMAIN); ?>:</label>
-				</th>
-				<td>
-					<input type="number" min="0" max="10000000" step="1" name="mk_price" value="<?php esc_attr_e( $mk_price ); ?>" class="medium-text">
-					<code><?php _e('1050 will display as 10,50 if you do not disable nummber format.', MENUKAART_TXT_DOMAIN); ?></code>
-				</td>
-			</tr>
-			<tr>
-				<th scope="row">
-					<label><?php _e('WC Product ID', MENUKAART_TXT_DOMAIN); ?>:</label>
-				</th>
-				<td>
-					<input type="text" name="mk_wc_prod" class="medium-text" value="<?php esc_attr_e( $mk_wc_prod ); ?>">
-				</td>
-			</tr>
-			<tr>
-				<th scope="row">
-					<label for="mk_status"><?php _e('Status', MENUKAART_TXT_DOMAIN); ?>:</label>
-				</th>
-				<td>
-					<input type="radio" name="mk_status" class="mk_status" id="menukaart_status_active" value="active" <?php echo ( 'inactive' !== esc_attr( $mk_status ) ) ? 'checked' : ''; ?> >
-					<label for="menukaart_status_active"><span></span><?php _e( 'Active', MENUKAART_TXT_DOMAIN ); ?></label>
-					&nbsp;&nbsp;
-					<input type="radio" name="mk_status" class="mk_status" id="menukaart_status_inactive" value="inactive" <?php echo ( 'inactive' === esc_attr( $mk_status ) ) ? 'checked' : ''; ?> >
-					<label for="menukaart_status_inactive"><span></span><?php _e( 'Inactive', MENUKAART_TXT_DOMAIN ); ?></label>
-				</td>
-			</tr>
-		</table>
-		<?php
+	
+		require_once MENUKAART_PATH . 'admin/view/partial/add-menu.php';
 	}
 
 	/**

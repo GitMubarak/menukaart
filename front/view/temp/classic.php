@@ -30,8 +30,6 @@ if ( '' !== $mkCategory ) {
 
 // Loading styles
 include MENUKAART_PATH . 'assets/css/classic-styles.php';
-
-$menukaartData = new WP_Query( $menukaartArr );
 ?>
 <div class="menukaart-content-wrapper">
 
@@ -40,6 +38,8 @@ $menukaartData = new WP_Query( $menukaartArr );
     if ( 'hide' !== $mkSearch ) {
         include MENUKAART_PATH . 'front/view/search.php';
     }
+
+    $menukaartData = new WP_Query( $menukaartArr );
     ?>
 
     <div class="menukaart-course">

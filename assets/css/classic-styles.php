@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
         display: inline-block;
         margin: 0;
         margin-top: 5px!important;
-        padding: 12px 15px;
+        padding: 12px 15px!important;;
         cursor: pointer;
         border-style: solid;
         -webkit-appearance: none;
@@ -37,8 +37,8 @@ if ( ! defined( 'ABSPATH' ) ) {
         background: #DDDDDD!important;
     }
     .mk-button:hover {
-        background: #242424;
-        color: #FFFFFF;
+        background: #242424!important;
+        color: #FFFFFF!important;
     }
     @media only screen and (max-width: 767px) {
         .menukaart-content-wrapper {
