@@ -3,12 +3,12 @@
  * Plugin Name: 	    Menukaart
  * Plugin URI:		    http://wordpress.org/plugins/menukaart/
  * Description: 	    A simple restaurant food menu plugin that displays menu items in your webpage.
- * Version: 		    1.5
+ * Version: 		    1.6.1
  * Author:		        HM Plugin
  * Author URI:	        https://hmplugin.com
  * Requires at least:   5.2
  * Requires PHP:        7.2
- * Tested up to:        6.2.2
+ * Tested up to:        6.4.3
  * Text Domain:         menukaart
  * Domain Path:         /languages/
  * License:             GPL-2.0+
@@ -25,7 +25,7 @@ define('MENUKAART_SLUG', plugin_basename(__FILE__));
 define('MENUKAART_PRFX', 'Menukaart_');
 define('MENUKAART_CLS_PRFX', 'cls-menukaart-');
 define('MENUKAART_TXT_DOMAIN', 'menukaart');
-define('MENUKAART_VERSION', '1.5');
+define('MENUKAART_VERSION', '1.6.1');
 
 require_once MENUKAART_PATH . 'inc/' . MENUKAART_CLS_PRFX . 'master.php';
 

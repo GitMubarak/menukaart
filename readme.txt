@@ -3,8 +3,8 @@ Contributors: hmplugin, mhmrajib
 Donate link: https://www.paypal.me/mhmrajib
 Tags: café menu, restaurant, restaurant menu, food, Food Menu
 Requires at least: 5.2
-Tested up to: 6.2.2
-Stable tag: 1.5
+Tested up to: 6.4.3
+Stable tag: 1.6.1
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -166,6 +166,9 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 
 
 == Changelog ==
+
+= 1.6.1 =
+* Code Optimized
 
 = 1.5 =
 * Code Optimized
