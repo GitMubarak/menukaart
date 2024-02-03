@@ -12,6 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     }
     .menukaart-menu-item-container {
         margin-bottom: 0px;
+        margin-top: 20px;
         grid-gap: 60px;
     }
     .menukaart-menu-item-wrapper, .menukaart-menu-item {
