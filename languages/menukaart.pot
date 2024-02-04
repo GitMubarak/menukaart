@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Menukaart\n"
-"POT-Creation-Date: 2023-06-26 04:14+0600\n"
+"POT-Creation-Date: 2024-02-04 16:21+0600\n"
 "PO-Revision-Date: 2021-12-27 03:58+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.3.1\n"
+"X-Generator: Poedit 3.4.2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: _e;esc_html_e;esc_html;esc_html_;__\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -125,30 +125,6 @@ msgstr ""
 msgid "Menu Item Information"
 msgstr ""
 
-#: admin/cls-menukaart-admin.php:192
-msgid "Price"
-msgstr ""
-
-#: admin/cls-menukaart-admin.php:196
-msgid "1050 will display as 10,50 if you do not disable nummber format."
-msgstr ""
-
-#: admin/cls-menukaart-admin.php:201
-msgid "WC Product ID"
-msgstr ""
-
-#: admin/cls-menukaart-admin.php:209
-msgid "Status"
-msgstr ""
-
-#: admin/cls-menukaart-admin.php:213
-msgid "Active"
-msgstr ""
-
-#: admin/cls-menukaart-admin.php:216
-msgid "Inactive"
-msgstr ""
-
 #: admin/view/help-usage.php:3
 msgid "Menukaart Video Tutorial"
 msgstr ""
@@ -163,6 +139,34 @@ msgstr ""
 
 #: admin/view/manage-views.php:35
 msgid "Coming Soon"
+msgstr ""
+
+#: admin/view/partial/add-menu.php:15
+msgid "Sale Price"
+msgstr ""
+
+#: admin/view/partial/add-menu.php:19
+msgid "1050 will display as 10,50 if you do not disable nummber format."
+msgstr ""
+
+#: admin/view/partial/add-menu.php:24
+msgid "WooCommerce Product"
+msgstr ""
+
+#: admin/view/partial/add-menu.php:52
+msgid "Select a Product"
+msgstr ""
+
+#: admin/view/partial/add-menu.php:71
+msgid "Status"
+msgstr ""
+
+#: admin/view/partial/add-menu.php:75
+msgid "Active"
+msgstr ""
+
+#: admin/view/partial/add-menu.php:78
+msgid "Inactive"
 msgstr ""
 
 #: admin/view/partial/general-settings.php:17
@@ -222,10 +226,14 @@ msgid "This will disable price number format $99,99 and will display $99 only."
 msgstr ""
 
 #: admin/view/partial/general-settings.php:104
-msgid "Order Now Url"
+msgid "Enable Online Ordering"
 msgstr ""
 
-#: admin/view/partial/general-settings.php:114
+#: admin/view/partial/general-settings.php:112
+msgid "Enable Pagination"
+msgstr ""
+
+#: admin/view/partial/general-settings.php:122
 #: admin/view/partial/styles-settings.php:144
 msgid "Save Settings"
 msgstr ""
@@ -290,6 +298,11 @@ msgstr ""
 msgid "Price Font Size"
 msgstr ""
 
+#: front/view/detail-modal.php:44 front/view/temp/classic.php:79
+#: front/view/temp/menucart.php:77
+msgid "No Image Available"
+msgstr ""
+
 #: front/view/search.php:130
 msgid "Food Title"
 msgstr ""
@@ -302,16 +315,20 @@ msgstr ""
 msgid "Search Foods"
 msgstr ""
 
-#: front/view/temp/classic.php:67 front/view/temp/menucart.php:77
-msgid "No Image Available"
-msgstr ""
-
-#: front/view/temp/classic.php:76
+#: front/view/temp/classic.php:102
 msgid "Order Now"
 msgstr ""
 
-#: front/view/temp/classic.php:84
-msgid "No food availalble. Please add one."
+#: front/view/temp/classic.php:128
+msgid "« "
+msgstr ""
+
+#: front/view/temp/classic.php:129
+msgid " »"
+msgstr ""
+
+#: front/view/temp/classic.php:140
+msgid "No food availalble right now"
 msgstr ""
 
 #: front/view/temp/menucart.php:91
