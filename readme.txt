@@ -44,7 +44,7 @@ This WordPress Restaurant Menu Plugin is a simple, effective and powerful plugin
 
 * Fully responsive for any device
 * Display food menu of a category
-* Unlimited  Menu Items
+* Unlimited Menu Items
 * Show-Hide a Menu Item
 * Display food menu category wise
 * Menu Item with Price
@@ -71,6 +71,9 @@ This WordPress Restaurant Menu Plugin is a simple, effective and powerful plugin
 * Font Awesome Free 6.1.1 integrated
 * Menu item image
 * Enable Disable Price Number Format
+* Pagination Integrated - New
+* Menu Details Popup - New
+* Direct Checkout for Online Ordering - New
 
 
 ➡️ Useage of Shortcode:⬅️
@@ -175,6 +178,7 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 * Menu design improved
 * Responsive design improved
 * Menu details popup added
+* Pagination applied
 * Css fixed
 * Code Optimized
 

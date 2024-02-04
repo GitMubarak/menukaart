@@ -304,6 +304,53 @@
     .mk-detail-cat span.mk-detail-right a.mk-detail-link:hover {
         color: #495cb1;
     }
+    /* Pagination Started */
+    
+    .mk-pagination {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .mk-pagination .page-numbers li {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin: 0 2px 0 0;
+        border: 1px solid #DDD;
+        text-decoration: none;
+        border-radius: 2px;
+        font-weight: 600;
+        background: #F2F2F2;
+    }
+    
+    div.mk-pagination>ul.page-numbers {
+        margin: 0;
+    }
+    
+    div.mk-pagination>ul.page-numbers>li>a.page-numbers {
+        text-decoration: none;
+        color: #111111;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    
+    div.mk-pagination>ul.page-numbers>li>span.page-numbers.current {
+        display: block;
+        background: #DDD;
+        color: #CC0000;
+    }
+    
+    div.mk-pagination>ul.page-numbers>li:hover,
+    div.mk-pagination>ul.page-numbers>li>a.page-numbers:hover {
+        background: #DDD;
+        color: #CC0000;
+    }
+    /* Pagination Ended */
     /*== Responsive ==*/
     
     @media only screen and (max-width: 500px) {

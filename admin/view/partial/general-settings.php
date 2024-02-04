@@ -107,6 +107,14 @@ foreach ( $menukaartGeneralSettings as $option_name => $option_value ) {
             <input type="checkbox" name="mk_enable_online_ordering" id="mk_enable_online_ordering" value="1" <?php echo $mk_enable_online_ordering ? 'checked' : ''; ?>>
             </td>
         </tr>
+        <tr>
+            <th scope="row">
+                <label for="mk_enable_pagination"><?php _e('Enable Pagination', MENUKAART_TXT_DOMAIN); ?></label>
+            </th>
+            <td colspan="3">
+            <input type="checkbox" name="mk_enable_pagination" id="mk_enable_pagination" value="1" <?php echo $mk_enable_pagination ? 'checked' : ''; ?>>
+            </td>
+        </tr>
     </table>
     <hr>
     <p class="submit">

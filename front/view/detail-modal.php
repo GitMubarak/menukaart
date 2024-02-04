@@ -62,7 +62,7 @@ if ( has_post_thumbnail( $post_id ) ) {
                     <?php
                     $mk_cat_arr = array();
                     foreach( $mk_category as $cat) {
-                        $mk_cat_arr[] = "<a href='" . esc_url( home_url( '?mk_title&mk_category_s=' . urlencode( $cat->slug )  ) ) . "' class='mk-detail-link'>" . $cat->name . "</a>";
+                        $mk_cat_arr[] = "<a href='" . esc_url( home_url( '?mk_title&mk_category_s=' . urlencode( $cat->name )  ) ) . "' class='mk-detail-link'>" . $cat->name . "</a>";
                     }
                     echo implode( ', ', $mk_cat_arr );
                     ?>

@@ -87,6 +87,11 @@ trait Menukaart_General_Settings
                 'type'      => 'boolean',
                 'default'   => false,
             ],
+            [
+                'name'      => 'mk_enable_pagination',
+                'type'      => 'boolean',
+                'default'   => false,
+            ],
         ];
 
     }

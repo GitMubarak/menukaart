@@ -3,6 +3,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+if ( is_front_page() ) {
+    $page = ( get_query_var('page') ) ? get_query_var('page') : 1;
+  } 
+  else {
+    $page = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+}
+
 $menukaartArr = array(
     'post_type'   => 'menukaart',
     'post_status' => 'publish',
@@ -17,6 +24,10 @@ $menukaartArr = array(
         ),
     ),
 );
+
+if ( $mk_enable_pagination ) {
+    $menukaartArr['paged'] = $page;
+}
 
 if ( '' !== $mkCategory ) {
     $menukaartArr['tax_query'] = array(
@@ -40,11 +51,11 @@ include MENUKAART_PATH . 'assets/css/classic-styles.php';
     }
 
     $menukaartData = new WP_Query( $menukaartArr );
-    ?>
-    <div class="menukaart-menu-item-container">
-        <?php
-        if ( $menukaartData->have_posts() ) {
-
+    
+    if ( $menukaartData->have_posts() ) {
+        ?>
+        <div class="menukaart-menu-item-container">
+            <?php
             while ( $menukaartData->have_posts() ) {
 
                 $menukaartData->the_post();
@@ -97,11 +108,36 @@ include MENUKAART_PATH . 'assets/css/classic-styles.php';
                 </div>
                 <?php
             }
-            
-        } else {
-            _e('No food availalble right now', 'menukaart');
+            ?>
+        </div>
+        <?php
+        if ( $mk_enable_pagination ) {
+            ?>
+            <div class="mk-pagination">
+                <?php
+                if ( $menukaartData->max_num_pages > 1 ) {
+
+                $wbgPaginateBig = 999999999;
+                $wbgPaginateArgs = array(
+                    'base' => str_replace( $wbgPaginateBig, '%#%', esc_url( get_pagenum_link( $wbgPaginateBig ) ) ),
+                    'format' => '?page=%#%',
+                    'total' => $menukaartData->max_num_pages,
+                    'current' => max( 1, $page ),
+                    'end_size' => 1,
+                    'mid_size' => 2,
+                    'prev_text' => __('« '),
+                    'next_text' => __(' »'),
+                    'type' => 'list',
+                );
+                echo paginate_links( $wbgPaginateArgs );
+                }
+                ?>
+            </div>
+            <?php
         }
         wp_reset_postdata();
-        ?>
-    </div>
+    } else {
+        _e('No food availalble right now', 'menukaart');
+    }
+    ?>
 </div>
