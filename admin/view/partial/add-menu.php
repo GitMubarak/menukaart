@@ -48,7 +48,7 @@ $mk_status		= get_post_meta( $post->ID, 'mk_status', true );
 
             $wbg_wc_products = wc_get_products( $wbg_wc_args );
             ?>
-            <select name="mk_wc_prod" id="mk_wc_prod" style="display: <?php echo ( 'int' === $wbg_wc_product_type ) ? 'block' : 'none'; ?>;">
+            <select name="mk_wc_prod" id="mk_wc_prod">
                 <option value=""><?php _e('Select a Product', MENUKAART_TXT_DOMAIN); ?></option>
                 <?php
                 foreach( $wbg_wc_products as $product ) {
