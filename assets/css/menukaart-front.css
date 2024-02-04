@@ -99,6 +99,7 @@
     text-transform: uppercase;
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 .menukaart-menu-price {
@@ -129,11 +130,72 @@
     border-radius: 4px;
 }
 
+body>.jquery-modal.blocker.current {
+    z-index: 99999;
+}
+
+.mk-detail-modal {
+    max-width: 1000px;
+    height: calc(100% - 100px);
+    overflow: initial;
+    padding: 30px;
+    padding-right: 15px;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.mk-detail-modal-wrapper {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.mk-detail-top-left-right-wrapper {
+    min-height: 100px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.mk-detail-top-left,
+.mk-detail-top-right {
+    min-height: 100px;
+}
+
+.mk-detail-top-left img {
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 1px solid #DDD;
+}
+
+.mk-detail-top-right {
+    padding-right: 10px;
+}
+
+.mk-detail-price {
+    padding-bottom: 15px;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #CC0000;
+}
+
 
 /*== Responsive ==*/
 
 @media only screen and (max-width: 767px) {
     .menukaart-menu-item-container {
         display: block;
+    }
+    .mk-detail-modal {
+        height: calc(100% - 100px);
+        padding: 10px;
     }
 }

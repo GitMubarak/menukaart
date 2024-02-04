@@ -12,7 +12,7 @@ $mk_status		= get_post_meta( $post->ID, 'mk_status', true );
 <table class="form-table">
 <tr>
     <th scope="row">
-        <label><?php _e('Price', MENUKAART_TXT_DOMAIN); ?>:</label>
+        <label><?php _e('Sale Price', MENUKAART_TXT_DOMAIN); ?></label>
     </th>
     <td>
         <input type="number" min="0" max="10000000" step="1" name="mk_price" value="<?php esc_attr_e( $mk_price ); ?>" class="medium-text">
@@ -21,7 +21,7 @@ $mk_status		= get_post_meta( $post->ID, 'mk_status', true );
 </tr>
 <tr>
     <th scope="row">
-        <label><?php _e('WooCommerce Product', MENUKAART_TXT_DOMAIN); ?>:</label>
+        <label><?php _e('WooCommerce Product', MENUKAART_TXT_DOMAIN); ?></label>
     </th>
     <td>
         <?php
@@ -68,7 +68,7 @@ $mk_status		= get_post_meta( $post->ID, 'mk_status', true );
 </tr>
 <tr>
     <th scope="row">
-        <label for="mk_status"><?php _e('Status', MENUKAART_TXT_DOMAIN); ?>:</label>
+        <label for="mk_status"><?php _e('Status', MENUKAART_TXT_DOMAIN); ?></label>
     </th>
     <td>
         <input type="radio" name="mk_status" class="mk_status" id="menukaart_status_active" value="active" <?php echo ( 'inactive' !== esc_attr( $mk_status ) ) ? 'checked' : ''; ?> >

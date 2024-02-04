@@ -35,3 +35,6 @@ if ( 'classic' === $mkTemp ) {
 } else {
 	include 'temp/menucart.php';
 }
+?>
+<div class="mk-detail-modal modal" id="mk-detail-modal-id">
+</div>

@@ -67,7 +67,7 @@ include MENUKAART_PATH . 'assets/css/classic-styles.php';
                         <img src="<?php echo esc_url( $mk_img ); ?>" alt="<?php _e('No Image Available', 'menukaart'); ?>">
                     </div>
                     <div class="mk-menu-content">
-                        <div class="menukaart-menu-name"><?php echo get_the_title(); ?></div>
+                        <div class="menukaart-menu-name" rel="modal:open" data-post_id="<?php esc_attr_e( $post->ID ); ?>"><?php echo get_the_title(); ?></div>
                         <div class="menukaart-menu-price"><?php echo esc_html( $mk_currency ) . '' . $mk_price; ?></div>
                         <div class="menukaart-menu-desc">
                             <?php

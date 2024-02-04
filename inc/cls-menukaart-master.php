@@ -44,6 +44,8 @@ class Menukaart_Master
 		$menukaart_front = new Menukaart_Front($this->menukaart_version());
 		$this->menukaart_loader->add_action('wp_enqueue_scripts', $menukaart_front, MENUKAART_PRFX . 'front_assets');
 		$menukaart_front->menukaart_load_shortcode();
+		$this->menukaart_loader->add_action('wp_ajax_menu_detail_modal', $menukaart_front, 'mk_load_menu_detail_modal' );
+		$this->menukaart_loader->add_action('wp_ajax_nopriv_menu_detail_modal', $menukaart_front, 'mk_load_menu_detail_modal' );
 	}
 
 	function menukaart_run() {

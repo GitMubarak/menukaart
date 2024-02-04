@@ -3,19 +3,32 @@
     // USE STRICT
     "use strict";
 
-    /*
-    $('.flexslider').flexslider({
-        animation: menukaartSliderOption.menukaart_animation,
-        easing: "swing",
-        direction: menukaartSliderOption.menukaart_direction,
-        slideshow: menukaartSliderOption.menukaart_autoplay,
-        slideshowSpeed: menukaartSliderOption.menukaart_autoplay_speed,
-        animationSpeed: 600,
-        controlNav: true, // pagination
-        directionNav: true, //prev/next
-        prevText: '<i class="fa fa-chevron-left" aria-hidden="true"></i>',
-        nextText: '<i class="fa fa-chevron-right" aria-hidden="true"></i>',
-    });
-    */
+    var mkDetailModal = document.getElementById('mk-detail-modal-id');
 
+    if (mkDetailModal != null) {
+        $(document).on('click', '.menukaart-menu-name', function(event) {
+            event.preventDefault();
+            $.ajax({
+                url: mkAdminScriptObj.ajaxurl,
+                type: "POST",
+                data: {
+                    action: 'menu_detail_modal',
+                    postId: $(this).data('post_id'),
+                },
+                success: function(data) {
+                        //$(newHTML).appendTo('body').modal();
+                        $('#mk-detail-modal-id').html(data).modal({
+                            fadeDuration: 250,
+                            fadeDelay: 1.5
+                        });
+                    }
+                    /*
+                    $('#mk-detail-modal-id').modal({
+                        fadeDuration: 250,
+                        fadeDelay: 1.5
+                    });*/
+            });
+            return false;
+        });
+    }
 })(window, jQuery);
