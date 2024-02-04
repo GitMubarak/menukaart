@@ -30,16 +30,6 @@ class Menukaart_Front
 			FALSE
 		);
 
-		/*
-		wp_enqueue_style(	
-			'mk-izi-modal',
-			MENUKAART_ASSETS . 'css/iziModal.min.css',
-			array(),
-			$this->menukaart_version,
-			FALSE 
-		);
-		*/
-
 		wp_enqueue_style('menukaart-front',
 			MENUKAART_ASSETS . 'css/' . $this->menukaart_assets_prefix . 'front.css',
 			array(),
@@ -50,16 +40,6 @@ class Menukaart_Front
 		if ( ! wp_script_is( 'jquery' ) ) {
 			wp_enqueue_script('jquery');
 		}
-
-		/*
-		wp_enqueue_script(  
-			'mk-izi-modal',
-			MENUKAART_ASSETS . 'js/iziModal.min.js',
-			array('jquery'),
-			$this->menukaart_version,
-			TRUE 
-		);
-		*/
 
 		wp_register_script( 'mk-jquery-modal', '//cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js', null, null, true );
 		wp_enqueue_script('mk-jquery-modal');

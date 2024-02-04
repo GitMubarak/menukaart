@@ -53,7 +53,7 @@ include MENUKAART_PATH . 'assets/css/classic-styles.php';
                 $mk_img 	= MENUKAART_ASSETS . 'img/no-image.jpg';
 
                 if ( has_post_thumbnail() ) {
-                    $mk_img = get_the_post_thumbnail_url($post->ID,'full');
+                    $mk_img = get_the_post_thumbnail_url( $post->ID, 'thumbnail' );
                 }
 
                 if ( ! $mk_disable_price_number_format ) {
@@ -64,10 +64,15 @@ include MENUKAART_PATH . 'assets/css/classic-styles.php';
                 ?>
                 <div class="menukaart-menu-item">
                     <div class="mk-menu-image">
-                        <img src="<?php echo esc_url( $mk_img ); ?>" alt="<?php _e('No Image Available', 'menukaart'); ?>">
+                        <a class="mk-popup" data-post_id="<?php esc_attr_e( $post->ID ); ?>" href="#">
+                            <img src="<?php echo esc_url( $mk_img ); ?>" alt="<?php _e('No Image Available', 'menukaart'); ?>">
+                            <span class="mk-menu-url-icon"><i class="fa-solid fa-link"></i></span>
+                        </a>
                     </div>
                     <div class="mk-menu-content">
-                        <div class="menukaart-menu-name" rel="modal:open" data-post_id="<?php esc_attr_e( $post->ID ); ?>"><?php echo get_the_title(); ?></div>
+                        <div class="menukaart-menu-name mk-popup" data-post_id="<?php esc_attr_e( $post->ID ); ?>">
+                            <h3><a class="mk-menu-title"><?php echo get_the_title(); ?></a></h3>
+                        </div>
                         <div class="menukaart-menu-price"><?php echo esc_html( $mk_currency ) . '' . $mk_price; ?></div>
                         <div class="menukaart-menu-desc">
                             <?php

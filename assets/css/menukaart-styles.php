@@ -20,10 +20,14 @@ if ( ! defined( 'ABSPATH' ) ) {
     color: <?php esc_html_e( $mc_food_course_font_color ); ?>;
     font-size: <?php esc_html_e( $mc_food_course_font_size ); ?>px;
 }
-.menukaart-menu-name {
+.menukaart-menu-name,
+.menukaart-menu-name a.mk-menu-title {
     color: <?php esc_html_e( $mc_food_font_color ); ?>;
     font-size: <?php esc_html_e( $mc_food_font_size ); ?>px;
     line-height: <?php echo esc_html( $mc_food_font_size ) + 10; ?>px;
+}
+.menukaart-menu-name a.mk-menu-title::before {
+    background-color: <?php esc_html_e( $mc_food_font_color ); ?>;
 }
 .menukaart-menu-price {
     color: <?php esc_html_e( $mc_food_price_font_color ); ?>;

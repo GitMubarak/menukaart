@@ -1,201 +1,341 @@
-.menukaart-content-wrapper {
-    font-family: 'Oswald', sans-serif;
-    border: 1px solid #DDD;
-    width: 100%;
-    min-height: 50px;
-    padding: 0 20px 40px 20px;
-    margin: 50px auto;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.3s ease-in-out;
-}
-
-.menukaart-master-title {
-    font-family: inherit;
-    border: 1px solid #DAABB5;
-    padding: 0px 20px;
-    width: min-content;
-    background-color: #DAABB5;
-    color: #FFF;
-    text-shadow: #111;
-    font-size: 30px;
-    position: relative;
-    margin: 0 auto;
-    height: 60px;
-    top: -30px;
-}
-
-.menukaart-meal h3 {
-    font-family: inherit;
-    font-size: 48px;
-    border-top: 3px solid #DAABB5;
-    border-bottom: 3px solid #DAABB5;
-    width: min-content;
-    margin: 20px auto 50px auto;
-    padding: 0px 0;
-    color: #DAABB5;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.menukaart-course h4 {
-    font-family: inherit;
-    font-size: 30px;
-    border: 2px solid #DAABB5;
-    width: 100%;
-    margin: 30px 0 20px 0;
-    color: #DAABB5;
-    font-weight: 600;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.menukaart-menu-item-container {
-    border: 0px solid #000;
-    width: 100%;
-    min-height: 50px;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-gap: 40px;
-    row-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 50px;
-}
-
-.menukaart-menu-item-wrapper,
-.menukaart-menu-item {
-    border: 0px solid #009900;
-    clear: both;
-}
-
-.mk-menu-image {
-    width: 28%;
-    float: left;
-    margin: 0;
-    margin-right: 2%;
-    padding: 0;
-    min-height: 20px;
-}
-
-.mk-menu-content {
-    width: 70%;
-    float: left;
-    margin: 0;
-    padding: 0;
-}
-
-.mk-menu-image img {
-    width: 100%;
-    height: auto;
-}
-
-.menukaart-menu-name {
-    font-family: inherit;
-    width: 70%;
-    float: left;
-    color: #DAABB5;
-    font-weight: 400;
-    font-size: 22px;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-}
-
-.menukaart-menu-price {
-    font-family: inherit;
-    width: 30%;
-    float: right;
-    text-align: right;
-    color: #242424;
-    font-weight: 400;
-    font-size: 22px;
-}
-
-.menukaart-menu-desc {
-    width: 80%;
-    border: 0px solid #000;
-    clear: both;
-}
-
-.menukaart-menu-desc p {
-    margin-bottom: 0;
-}
-
-.menukaart-bottom-border {
-    height: 3px;
-    width: 150px;
-    margin: 40px auto 2px auto;
-    background-color: #DAABB5;
-    border-radius: 4px;
-}
-
-body>.jquery-modal.blocker.current {
-    z-index: 99999;
-}
-
-.mk-detail-modal {
-    max-width: 1000px;
-    height: calc(100% - 100px);
-    overflow: initial;
-    padding: 30px;
-    padding-right: 15px;
-    margin: auto;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.mk-detail-modal-wrapper {
-    height: 100%;
-    overflow-y: scroll;
-}
-
-.mk-detail-top-left-right-wrapper {
-    min-height: 100px;
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.mk-detail-top-left,
-.mk-detail-top-right {
-    min-height: 100px;
-}
-
-.mk-detail-top-left img {
-    border-radius: 15px;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    border: 1px solid #DDD;
-}
-
-.mk-detail-top-right {
-    padding-right: 10px;
-}
-
-.mk-detail-price {
-    padding-bottom: 15px;
-    font-size: 20px;
-    line-height: 1.4;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #CC0000;
-}
-
-
-/*== Responsive ==*/
-
-@media only screen and (max-width: 767px) {
+    .menukaart-content-wrapper {
+        font-family: 'Oswald', sans-serif;
+        border: 1px solid #DDD;
+        width: 100%;
+        min-height: 50px;
+        padding: 0 20px 40px 20px;
+        margin: 50px auto;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+    
+    .menukaart-master-title {
+        font-family: inherit;
+        border: 1px solid #DAABB5;
+        padding: 0px 20px;
+        width: min-content;
+        background-color: #DAABB5;
+        color: #FFF;
+        text-shadow: #111;
+        font-size: 30px;
+        position: relative;
+        margin: 0 auto;
+        height: 60px;
+        top: -30px;
+    }
+    
+    .menukaart-meal h3 {
+        font-family: inherit;
+        font-size: 48px;
+        border-top: 3px solid #DAABB5;
+        border-bottom: 3px solid #DAABB5;
+        width: min-content;
+        margin: 20px auto 50px auto;
+        padding: 0px 0;
+        color: #DAABB5;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    .menukaart-course h4 {
+        font-family: inherit;
+        font-size: 30px;
+        border: 2px solid #DAABB5;
+        width: 100%;
+        margin: 30px 0 20px 0;
+        color: #DAABB5;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
     .menukaart-menu-item-container {
+        border: 0px solid #000;
+        width: 100%;
+        min-height: 50px;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-gap: 40px;
+        row-gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 50px;
+    }
+    
+    .menukaart-menu-item-wrapper,
+    .menukaart-menu-item {
+        border: 0px solid #009900;
+        clear: both;
+    }
+    
+    .mk-menu-image {
+        width: 28%;
+        float: left;
+        margin: 0;
+        margin-right: 2%;
+        padding: 0;
+        height: 140px;
+        max-width: 140px;
+        position: relative;
+    }
+    
+    .mk-menu-image a {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity: 1;
+        overflow: hidden;
+    }
+    
+    .mk-menu-image img {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
         display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        top: 0;
+        left: 0;
     }
+    
+    span.mk-menu-url-icon {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        border-radius: 50%;
+        font-size: 18px;
+        color: #000;
+        width: 46px;
+        height: 46px;
+        line-height: 46px;
+        -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+        box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+        z-index: 1;
+        background: #FFF;
+    }
+    
+    .mk-menu-image a:hover {
+        background: #000;
+        z-index: 1;
+    }
+    
+    .mk-menu-image a:hover img {
+        opacity: 0.5;
+        -ms-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    
+    .mk-menu-image a:hover span.mk-menu-url-icon {
+        opacity: 1;
+    }
+    
+    .mk-menu-content {
+        width: 70%;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menukaart-menu-name {
+        font-family: inherit;
+        width: 70%;
+        float: left;
+        color: #DAABB5;
+        font-weight: 400;
+        font-size: 22px;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+    }
+    
+    .menukaart-menu-name a.mk-menu-title {
+        color: #DAABB5;
+        position: relative;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    .menukaart-menu-name a.mk-menu-title::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-radius: 4px;
+        background-color: #DAABB5;
+        bottom: 0;
+        left: 0;
+        top: 34;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform .3s ease-in-out;
+    }
+    
+    .menukaart-menu-name a.mk-menu-title:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+    }
+    
+    .menukaart-menu-price {
+        font-family: inherit;
+        width: 30%;
+        float: right;
+        text-align: right;
+        color: #242424;
+        font-weight: 400;
+        font-size: 22px;
+    }
+    
+    .menukaart-menu-desc {
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 26px;
+        clear: both;
+    }
+    
+    .menukaart-menu-desc p {
+        margin-bottom: 0;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .menukaart-bottom-border {
+        height: 3px;
+        width: 150px;
+        margin: 40px auto 2px auto;
+        background-color: #DAABB5;
+        border-radius: 4px;
+    }
+    
+    body>.jquery-modal.blocker.current {
+        z-index: 99999;
+    }
+    
     .mk-detail-modal {
+        max-width: 1000px;
         height: calc(100% - 100px);
-        padding: 10px;
+        overflow: initial;
+        padding: 30px;
+        padding-right: 15px;
+        margin: auto;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
     }
-}
+    
+    .mk-detail-modal-wrapper {
+        height: 100%;
+        overflow-y: scroll;
+    }
+    
+    .mk-detail-top-left-right-wrapper {
+        min-height: 100px;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    
+    .mk-detail-top-left,
+    .mk-detail-top-right {
+        min-height: 100px;
+    }
+    
+    .mk-detail-top-left img {
+        border-radius: 15px;
+        overflow: hidden;
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+        border: 1px solid #DDD;
+    }
+    
+    .mk-detail-top-right {
+        padding-right: 10px;
+    }
+    
+    .mk-detail-price {
+        padding-bottom: 15px;
+        font-size: 20px;
+        line-height: 1.4;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #CC0000;
+    }
+    
+    .mk-detail-desc {
+        border: 0px solid #000;
+    }
+    
+    .mk-detail-cat {
+        margin-top: 20px;
+    }
+    
+    .mk-detail-cat span.mk-detail-left,
+    .mk-detail-cat span.mk-detail-right {
+        font-weight: 600;
+        display: inline-block;
+    }
+    
+    .mk-detail-cat span.mk-detail-right,
+    .mk-detail-cat span.mk-detail-right a.mk-detail-link {
+        color: #CC0000;
+    }
+    
+    .mk-detail-cat span.mk-detail-right a.mk-detail-link:hover {
+        color: #495cb1;
+    }
+    /*== Responsive ==*/
+    
+    @media only screen and (max-width: 500px) {
+        .menukaart-menu-item-container {
+            display: block;
+        }
+        .menukaart-menu-item {
+            width: 100%;
+        }
+        .mk-menu-image {
+            width: 100%;
+            max-width: 100%;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+        .mk-menu-content {
+            width: 100%;
+        }
+        .menukaart-menu-desc {
+            width: 100%;
+        }
+        .mk-detail-modal {
+            height: calc(100% - 100px);
+            padding: 10px;
+        }
+        .mk-detail-top-left-right-wrapper {
+            display: block;
+            padding: 20px;
+        }
+        .mk-detail-top-right {
+            border: 0px solid #000;
+            margin-top: 20px;
+            padding-right: 0;
+        }
+    }

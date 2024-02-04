@@ -172,6 +172,9 @@ Not at all! This plugin is very easy to use. With just a few clicks, you can ama
 * Select WooCommerce product list added in admin
 * Enable Online Ordering option added to general settings
 * String length applied to menu description
+* Menu design improved
+* Responsive design improved
+* Menu details popup added
 * Css fixed
 * Code Optimized
 
